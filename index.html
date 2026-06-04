@@ -1,16 +1,17 @@
+
 <!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Endpoint DLP Plus — Discover, Classify & Protect Sensitive Data</title>
+  <title>Browser Security Plus</title>
   <meta name="description"
-    content="Prevent data loss from endpoints with enterprise-grade DLP. Discover sensitive data, classify files, enforce policies, and monitor data movement from a single console." />
+    content="ManageEngine Browser Security Plus helps IT teams secure enterprise browsers, enforce web policies, control extensions, and protect users from browser-borne threats from a single console." />
   <style>
     /* === fonts.css === */
-    /* Zoho Puvi font family — local @font-face declarations
- * Files live in /fonts/ — uploaded as the canonical brand font set.
+    /* Zoho Puvi font family â€” local @font-face declarations
+ * Files live in /fonts/ â€” uploaded as the canonical brand font set.
  */
 
     @font-face {
@@ -119,49 +120,49 @@
 
 
     /* === uems-tokens.css === */
-    /* UEMS Design Tokens — CSS Custom Properties
+    /* UEMS Design Tokens â€” CSS Custom Properties
  * Source: Figma UEMS Website DS (cfsdaASn39Nhh8XPOEUnOB, node 33:2)
  * Exported: 2026-04-20
  */
 
     :root {
-      /* ─── Brand Colors ─── */
+      /* â”€â”€â”€ Brand Colors â”€â”€â”€ */
       --uems-color-primary: #0c5df6;
       --uems-color-secondary: #0043ce;
 
-      /* ─── CTA Colors ─── */
+      /* â”€â”€â”€ CTA Colors â”€â”€â”€ */
       --uems-color-cta: #d0162d;
       --uems-color-cta-hover: #b01327;
       --uems-color-cta-active: #8f0f20;
 
-      /* ─── Highlight / Accent ─── */
+      /* â”€â”€â”€ Highlight / Accent â”€â”€â”€ */
       --uems-color-highlight: #ffc538;
       --uems-color-highlight-hover: #ffb910;
       --uems-color-highlight-text: #091228;
 
-      /* ─── Neutral / Text ─── */
+      /* â”€â”€â”€ Neutral / Text â”€â”€â”€ */
       --uems-color-text-primary: #091228;
       --uems-color-text-secondary: #222222;
       --uems-color-text-tertiary: #2e3a4d;
       --uems-color-text-inverse: #ffffff;
 
-      /* ─── Borders ─── */
+      /* â”€â”€â”€ Borders â”€â”€â”€ */
       --uems-color-border-default: #e4e7ec;
       --uems-color-border-light: #f2f4f7;
 
-      /* ─── Surfaces ─── */
+      /* â”€â”€â”€ Surfaces â”€â”€â”€ */
       --uems-color-bg-page: #ffffff;
       --uems-color-bg-surface: #ffffff;
       --uems-color-bg-elevated: #ffffff;
       --uems-color-bg-inverse: #091228;
 
-      /* ─── Semantic ─── */
+      /* â”€â”€â”€ Semantic â”€â”€â”€ */
       --uems-color-success: #12b76a;
       --uems-color-warning: #f79009;
       --uems-color-error: #d0162d;
       --uems-color-info: #0c5df6;
 
-      /* ─── Tinted Sections ─── */
+      /* â”€â”€â”€ Tinted Sections â”€â”€â”€ */
       --uems-tint-1-surface: #f4f7ff;
       --uems-tint-1-border: #d6e2ff;
       --uems-tint-2-surface: #fff7e6;
@@ -171,12 +172,12 @@
       --uems-tint-4-surface: #091228;
       --uems-tint-4-border: #2e3a4d;
 
-      /* ─── Typography: Family ─── */
+      /* â”€â”€â”€ Typography: Family â”€â”€â”€ */
       --uems-font-heading: "Zoho Puvi", system-ui, -apple-system, sans-serif;
       --uems-font-body: "Zoho Puvi", system-ui, -apple-system, sans-serif;
       --uems-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-      /* ─── Typography: Size ─── */
+      /* â”€â”€â”€ Typography: Size â”€â”€â”€ */
       --uems-font-size-display: 56px;
       --uems-font-size-h1: 40px;
       --uems-font-size-h2: 28px;
@@ -188,24 +189,24 @@
       --uems-font-size-caption: 12px;
       --uems-font-size-overline: 11px;
 
-      /* ─── Typography: Weight ─── */
+      /* â”€â”€â”€ Typography: Weight â”€â”€â”€ */
       --uems-font-weight-bold: 700;
       --uems-font-weight-semibold: 600;
       --uems-font-weight-regular: 400;
       --uems-font-weight-light: 300;
 
-      /* ─── Typography: Line Height ─── */
+      /* â”€â”€â”€ Typography: Line Height â”€â”€â”€ */
       --uems-line-height-heading: 1.2;
       --uems-line-height-body: 1.5;
       --uems-line-height-tight: 1.1;
 
-      /* ─── Typography: Letter Spacing ─── */
+      /* â”€â”€â”€ Typography: Letter Spacing â”€â”€â”€ */
       --uems-letter-spacing-heading: -0.02em;
       --uems-letter-spacing-body: normal;
       --uems-letter-spacing-caps: 0.08em;
       --uems-letter-spacing-overline: 0.12em;
 
-      /* ─── Spacing: Base Scale ─── */
+      /* â”€â”€â”€ Spacing: Base Scale â”€â”€â”€ */
       --uems-space-unit: 4px;
       --uems-space-xs: 4px;
       --uems-space-sm: 8px;
@@ -215,7 +216,7 @@
       --uems-space-2xl: 64px;
       --uems-space-3xl: 96px;
 
-      /* ─── Spacing: Layout ─── */
+      /* â”€â”€â”€ Spacing: Layout â”€â”€â”€ */
       --uems-section-padding-y: 80px;
       --uems-section-padding-y-lg: 120px;
       --uems-content-max-width: 1200px;
@@ -224,13 +225,13 @@
       --uems-grid-gutter: 24px;
       --uems-card-padding: 24px;
 
-      /* ─── Shadows ─── */
+      /* â”€â”€â”€ Shadows â”€â”€â”€ */
       --uems-shadow-sm: 0 1px 2px rgba(9, 18, 40, 0.05);
       --uems-shadow-md: 0 4px 12px rgba(9, 18, 40, 0.08);
       --uems-shadow-lg: 0 16px 40px rgba(9, 18, 40, 0.12);
       --uems-shadow-none: none;
 
-      /* ─── Border Radius ─── */
+      /* â”€â”€â”€ Border Radius â”€â”€â”€ */
       --uems-radius-none: 0;
       --uems-radius-sm: 4px;
       --uems-radius-md: 8px;
@@ -238,7 +239,7 @@
       --uems-radius-pill: 999px;
       --uems-radius-full: 9999px;
 
-      /* ─── Form / Input ─── */
+      /* â”€â”€â”€ Form / Input â”€â”€â”€ */
       --uems-input-height: 48px;
       --uems-input-bg: #ffffff;
       --uems-input-border: 1px solid #e4e7ec;
@@ -252,7 +253,7 @@
     /* === styles.css === */
     @charset "UTF-8";
     /* =====================================================================
-   Endpoint DLP Plus — Landing Page
+   Browser Security Plus â€” Landing Page
    Uses UEMS Design Tokens (../UEMS Design System/tokens/uems-tokens.css)
    ===================================================================== */
 
@@ -306,7 +307,7 @@
       margin: 0;
     }
 
-    /* ─────────── Layout primitives ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Layout primitives â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .container {
       width: 100%;
       max-width: var(--uems-content-max-width);
@@ -326,7 +327,7 @@
       justify-items: center;
     }
 
-    /* ─────────── Typography (design-system ratios) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Typography (design-system ratios) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .display {
       font-family: var(--uems-font-heading);
       font-weight: var(--uems-font-weight-bold);
@@ -392,7 +393,7 @@
       margin: 0;
     }
 
-    /* ─────────── Buttons (Design System spec) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Buttons (Design System spec) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -493,7 +494,7 @@
       }
     }
 
-    /* ─────────── Header (two-tier, design-system) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Header (two-tier, design-system) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .site-header {
       position: sticky;
       top: 0;
@@ -717,7 +718,7 @@
       }
     }
 
-    /* ─────────── Hero ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .hero {
       padding: 80px 0;
       position: relative;
@@ -735,7 +736,7 @@
         #ffffff;
     }
 
-    /* Variant pattern overlay — mesh + grain live on .hero; each variant draws its motif here */
+    /* Variant pattern overlay â€” mesh + grain live on .hero; each variant draws its motif here */
     .hero::before {
       content: "";
       position: absolute;
@@ -746,58 +747,58 @@
       background-position: 0 0;
     }
 
-    /* ─────────── Hero background pattern options ─────────── */
-    /* Swap classes on <section class="hero …"> to try each option */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Hero background pattern options â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    /* Swap classes on <section class="hero â€¦"> to try each option */
 
-    /* Option A — Endpoint Grid: subtle blue dot lattice */
+    /* Option A â€” Endpoint Grid: subtle blue dot lattice */
     .hero--pat-grid::before {
       background-image: radial-gradient(circle, rgba(12, 93, 246, 0.06) 1.2px, transparent 1.6px);
       background-size: 28px 28px;
     }
 
-    /* Option B — Circuit Mesh: faint network lines + nodes */
+    /* Option B â€” Circuit Mesh: faint network lines + nodes */
     .hero--pat-circuit::before {
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><g fill='none' stroke='%230c5df6' stroke-width='1' opacity='0.10'><path d='M0 20 H40 V60 H80'/><path d='M20 0 V40 H60 V80'/><path d='M40 20 L60 40'/></g><g fill='%230c5df6' opacity='0.18'><circle cx='40' cy='20' r='2.4'/><circle cx='40' cy='60' r='2.4'/><circle cx='20' cy='40' r='2.4'/><circle cx='60' cy='40' r='2.4'/></g></svg>");
       background-size: 80px 80px;
     }
 
-    /* Option C — Security Ripples: concentric arcs emanating from corners */
+    /* Option C â€” Security Ripples: concentric arcs emanating from corners */
     .hero--pat-rings::before {
       background-image:
         repeating-radial-gradient(circle at 100% 100%, transparent 0 160px, rgba(12, 93, 246, 0.08) 160px 161.5px, transparent 161.5px 230px),
         repeating-radial-gradient(circle at 0% 0%, transparent 0 140px, rgba(208, 22, 45, 0.06) 140px 141.5px, transparent 141.5px 210px);
     }
 
-    /* Option D — Hex Mesh: hexagonal lattice */
+    /* Option D â€” Hex Mesh: hexagonal lattice */
     .hero--pat-hex::before {
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='96' viewBox='0 0 56 96'><g fill='none' stroke='%230c5df6' stroke-width='1' opacity='0.10'><path d='M28 1 L55 17 L55 47 L28 63 L1 47 L1 17 Z'/><path d='M28 65 L55 81 L55 95'/><path d='M28 65 L1 81 L1 95'/></g></svg>");
       background-size: 56px 96px;
     }
 
-    /* Option E — Data Streams: diagonal flowing lines */
+    /* Option E â€” Data Streams: diagonal flowing lines */
     .hero--pat-stream::before {
       background-image: repeating-linear-gradient(135deg, transparent 0 22px, rgba(12, 93, 246, 0.07) 22px 23px, transparent 23px 60px, rgba(12, 93, 246, 0.04) 60px 61px, transparent 61px 120px);
     }
 
-    /* Option F — Lock Tile: tiny padlock symbols */
+    /* Option F â€” Lock Tile: tiny padlock symbols */
     .hero--pat-lock::before {
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><g fill='none' stroke='%230c5df6' stroke-width='1.2' opacity='0.11'><rect x='32' y='40' width='16' height='12' rx='2'/><path d='M35 40 V35 a5 5 0 0 1 10 0 V40'/></g><circle cx='40' cy='46' r='1.4' fill='%230c5df6' opacity='0.16'/></svg>");
       background-size: 80px 80px;
     }
 
-    /* Option G — Topographic: contour waves */
+    /* Option G â€” Topographic: contour waves */
     .hero--pat-topo::before {
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'><g fill='none' stroke='%230c5df6' stroke-width='0.9' opacity='0.10'><path d='M0 30 Q50 10 100 30 T200 30'/><path d='M0 60 Q50 40 100 60 T200 60'/><path d='M0 90 Q50 70 100 90 T200 90'/><path d='M0 120 Q50 100 100 120 T200 120'/><path d='M0 150 Q50 130 100 150 T200 150'/><path d='M0 180 Q50 160 100 180 T200 180'/></g></svg>");
       background-size: 200px 200px;
     }
 
-    /* Option H — Plus Grid: small + marks */
+    /* Option H â€” Plus Grid: small + marks */
     .hero--pat-plus::before {
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'><g stroke='%230c5df6' stroke-width='1.2' stroke-linecap='round' opacity='0.14'><line x1='20' y1='16' x2='20' y2='24'/><line x1='16' y1='20' x2='24' y2='20'/></g></svg>");
       background-size: 40px 40px;
     }
 
-    /* Option I — Radar Sweep: concentric arcs from the right */
+    /* Option I â€” Radar Sweep: concentric arcs from the right */
     .hero--pat-radar::before {
       background-image:
         repeating-radial-gradient(circle at 95% 50%, transparent 0 70px, rgba(12, 93, 246, 0.07) 70px 71.5px, transparent 71.5px 140px),
@@ -1037,7 +1038,7 @@
     }
 
     .console__pill {
-      font-size: var(--uems-font-size-caption);
+      font-size: var(--uems-font-size-body-sm);
       font-weight: var(--uems-font-weight-semibold);
       padding: 3px 10px;
       border-radius: var(--uems-radius-pill);
@@ -1171,7 +1172,7 @@
       }
     }
 
-    /* ─────────── Trust band (colored logos) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Trust band (colored logos) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .trust {
       padding: 40px 0;
       border-top: 1px solid var(--uems-color-border-light);
@@ -1204,10 +1205,10 @@
 
     .trust__row {
       display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
-      gap: 16px;
+      gap: 28px 36px;
       animation: none;
       padding: 0;
       width: 100%;
@@ -1216,13 +1217,14 @@
 
     .trust__logo {
       width: auto;
-      height: 40px;
-      max-width: 140px;
+      height: 32px;
+      /* base optical height for text-mark logos */
+      max-width: 150px;
       object-fit: contain;
       filter: grayscale(100%);
-      opacity: 0.55;
+      opacity: 0.72;
       transition: filter .2s, opacity .2s;
-      flex: 0 1 auto;
+      flex: 0 0 auto;
     }
 
     .trust__logo:hover {
@@ -1230,7 +1232,7 @@
       opacity: 1;
     }
 
-    /* Optical-balance overrides — different logo shapes need different heights to feel equal weight */
+    /* Optical-balance overrides â€” different logo shapes need different heights to feel equal weight */
     .trust__logo[alt="NHS"] {
       height: 20px;
     }
@@ -1255,7 +1257,7 @@
       height: 22px;
     }
 
-    /* "Fe" mark — taller because small */
+    /* "Fe" mark â€” taller because small */
     .trust__logo[alt="AXA"] {
       height: 24px;
     }
@@ -1303,7 +1305,69 @@
       }
     }
 
-    /* ─────────── Capabilities ─────────── */
+    /* Larger trust-band logos for the Browser Security Plus page */
+    .trust__logo[alt="NHS"] {
+      height: 30px;
+    }
+
+    .trust__logo[alt="Kia"] {
+      height: 28px;
+    }
+
+    .trust__logo[alt="SanDisk"] {
+      height: 30px;
+    }
+
+    .trust__logo[alt="Panasonic"] {
+      height: 26px;
+    }
+
+    .trust__logo[alt="Fuji"] {
+      height: 34px;
+    }
+
+    .trust__logo[alt="AXA"] {
+      height: 36px;
+    }
+
+    .trust__logo[alt="Tokio Marine"] {
+      height: 46px;
+    }
+
+    .trust__logo[alt="Unisys"] {
+      height: 32px;
+    }
+
+    .trust__logo[alt="Victoria Police"] {
+      height: 50px;
+    }
+
+    .trust__logo[alt="DOI OIG"] {
+      height: 50px;
+    }
+
+    @media (max-width: 900px) {
+      .trust__row {
+        gap: 18px 22px;
+      }
+
+      .trust__logo {
+        height: 28px;
+        max-width: 118px;
+      }
+
+      .trust__logo[alt="Victoria Police"],
+      .trust__logo[alt="DOI OIG"] {
+        height: 42px;
+      }
+
+      .trust__logo[alt="Tokio Marine"],
+      .trust__logo[alt="AXA"] {
+        height: 34px;
+      }
+    }
+
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Capabilities â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .cap {
       padding: 80px 0;
       background: #fff;
@@ -1321,7 +1385,7 @@
       align-items: start;
     }
 
-    /* Tab nav — vertical sidebar on the left */
+    /* Tab nav â€” vertical sidebar on the left */
     .tabstrip-wrap {
       position: sticky;
       top: 96px;
@@ -1373,7 +1437,7 @@
 
     .tabstrip__btn::after {
       content: "\2192";
-      /* U+2192 RIGHTWARDS ARROW — escaped for safe CSS encoding */
+      /* U+2192 RIGHTWARDS ARROW â€” escaped for safe CSS encoding */
       margin-left: auto;
       font-size: 16px;
       color: var(--uems-color-text-tertiary);
@@ -1429,7 +1493,7 @@
         margin: 0 0 8px;
       }
 
-      /* Remove the outer card/border in mobile — pure horizontal pill strip */
+      /* Remove the outer card/border in mobile â€” pure horizontal pill strip */
       .tabstrip {
         padding: 0;
         background: transparent;
@@ -1499,7 +1563,7 @@
       /* equal height across all panels */
     }
 
-    /* Decorative subject icon — anchored bottom-left, half-clipped diagonally */
+    /* Decorative subject icon â€” anchored bottom-left, half-clipped diagonally */
     .cap__panel::before {
       content: "";
       position: absolute;
@@ -1572,7 +1636,7 @@
       font-size: var(--uems-font-size-h2);
     }
 
-    /* ─────────── Stacked layout (heading + subtext + mock) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Stacked layout (heading + subtext + mock) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .cap__panel {
       grid-template-columns: 1fr;
       grid-template-rows: auto auto;
@@ -1683,7 +1747,7 @@
       }
     }
 
-    /* ─────────── Capability panel mini-dashboards ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Capability panel mini-dashboards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .mock {
       padding: 0 !important;
       /* override .cap__visual padding for window-style mocks */
@@ -1787,7 +1851,7 @@
       font-size: var(--uems-font-size-body-sm);
     }
 
-    /* ── Mock 1 · File Explorer ── */
+    /* â”€â”€ Mock 1 Â· File Explorer â”€â”€ */
     .mock--explorer {
       background: #fff;
     }
@@ -1958,7 +2022,7 @@
       justify-content: flex-end;
     }
 
-    /* ── Mock 2 · Policy config ── */
+    /* â”€â”€ Mock 2 Â· Policy config â”€â”€ */
     .mock--policy {
       padding: 14px 16px !important;
       display: grid;
@@ -2126,7 +2190,7 @@
       border-radius: var(--uems-radius-pill);
     }
 
-    /* Mock 6 — Encryption policy with checkboxes + muted no-change selects */
+    /* Mock 6 â€” Encryption policy with checkboxes + muted no-change selects */
     .mock__policy-checkboxes {
       display: grid;
       gap: 10px;
@@ -2194,7 +2258,7 @@
       flex: 1;
     }
 
-    /* ── Mock 3/4/5 · Table-style dashboards ── */
+    /* â”€â”€ Mock 3/4/5 Â· Table-style dashboards â”€â”€ */
     .mock--audit,
     .mock--shadow,
     .mock--temp {
@@ -2277,7 +2341,7 @@
       justify-self: end;
     }
 
-    /* ── File Tracing — wider table for Audit File Transfers ── */
+    /* â”€â”€ Browser Inventory - wider table for browser activity â”€â”€ */
     .mock--tracing {
       padding: 16px 18px !important;
       display: grid;
@@ -2324,7 +2388,7 @@
       justify-self: end;
     }
 
-    /* ── Device Access Restricted overlay (Block USB tab) ── */
+    /* â”€â”€ Browser Policy Restricted overlay â”€â”€ */
     .mock__restrict {
       position: absolute;
       right: 16px;
@@ -2421,7 +2485,7 @@
       font-size: var(--uems-font-size-overline);
     }
 
-    /* ─────────── Mock animations (fire on tab activation) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Mock animations (fire on tab activation) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @keyframes mock-fade-up {
       from {
         opacity: 0;
@@ -2520,7 +2584,7 @@
       }
     }
 
-    /* Mock 1 · Explorer — dialog + toast fade-in */
+    /* Mock 1 Â· Explorer â€” dialog + toast fade-in */
     .cap__panel.is-active .mock--explorer .mock__dialog {
       animation: mock-fade-in .5s ease both .25s;
     }
@@ -2569,7 +2633,7 @@
       animation-delay: .29s;
     }
 
-    /* Mock 2/6 · Policy — section stagger + toggles + radios + checkboxes */
+    /* Mock 2/6 Â· Policy â€” section stagger + toggles + radios + checkboxes */
     .cap__panel.is-active .mock--policy .mock__policy-head,
     .cap__panel.is-active .mock--policy .mock__policy-sub {
       animation: mock-fade-up .35s ease both;
@@ -2635,7 +2699,7 @@
       animation-delay: .85s;
     }
 
-    /* Mocks 3/4/5 · Tables — header + filter pills + rows stagger */
+    /* Mocks 3/4/5 Â· Tables â€” header + filter pills + rows stagger */
     .cap__panel.is-active .mock--audit .mock__audit-head,
     .cap__panel.is-active .mock--shadow .mock__audit-head,
     .cap__panel.is-active .mock--temp .mock__audit-head {
@@ -2710,7 +2774,7 @@
       animation: mock-badge-pop .3s ease-out both .9s;
     }
 
-    /* Hero console bars — grow from baseline on load */
+    /* Hero console bars â€” grow from baseline on load */
     .console__bar {
       transform-origin: bottom;
       animation: mock-bar-grow .8s cubic-bezier(.2, .8, .2, 1) both;
@@ -2744,7 +2808,7 @@
       animation-delay: .67s;
     }
 
-    /* Hero console rows — slide in */
+    /* Hero console rows â€” slide in */
     .console__row {
       animation: mock-row-slide .4s ease-out both;
     }
@@ -2765,7 +2829,7 @@
       animation-delay: .80s;
     }
 
-    /* Hero float cards — pop in */
+    /* Hero float cards â€” pop in */
     .float-card {
       animation: mock-badge-pop .5s cubic-bezier(.34, 1.56, .64, 1) both 1s;
     }
@@ -2774,7 +2838,7 @@
       animation-delay: 1.2s;
     }
 
-    /* Counted stat (hero) — initial fade */
+    /* Counted stat (hero) â€” initial fade */
     .console__stat-num {
       animation: mock-fade-in .6s ease both .2s;
     }
@@ -2790,7 +2854,7 @@
       }
     }
 
-    /* ─────────── Badges (used in mock visuals only) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Badges (used in mock visuals only) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .badge {
       display: inline-flex;
       align-items: center;
@@ -2822,7 +2886,7 @@
       color: var(--uems-color-secondary);
     }
 
-    /* ─────────── Why ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Why â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .why {
       padding: 80px 0;
       background: var(--uems-tint-3-surface);
@@ -2887,7 +2951,7 @@
       }
     }
 
-    /* ─────────── Demo ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Demo â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .demo {
       padding: 80px 0;
       color: #fff;
@@ -3078,7 +3142,7 @@
       }
     }
 
-    /* ─────────── Industries ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Industries â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .ind {
       padding: 80px 0;
       background: #fff;
@@ -3103,7 +3167,7 @@
       display: none;
     }
 
-    /* Custom centered scroll indicator — 25% wide track with Apple-toggle-style thumb */
+    /* Custom centered scroll indicator â€” 25% wide track with Apple-toggle-style thumb */
     .ind__scrollbar {
       width: 20%;
       height: 16px;
@@ -3176,7 +3240,7 @@
       object-fit: contain;
     }
 
-    /* Text-based compliance mark (used for Education → FERPA) */
+    /* Text-based compliance mark (used for Education â†’ FERPA) */
     .ind__compliance {
       font-family: var(--uems-font-heading);
       font-weight: var(--uems-font-weight-bold);
@@ -3194,7 +3258,7 @@
       color: var(--uems-color-text-tertiary);
     }
 
-    /* Industry title — plain uppercase label */
+    /* Industry title â€” plain uppercase label */
     .ind__title {
       display: inline-flex;
       align-items: center;
@@ -3229,7 +3293,7 @@
       }
     }
 
-    /* ─────────── Pricing (two-card layout) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Pricing (two-card layout) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .pricing {
       padding: 80px 0;
       background: var(--uems-tint-3-surface);
@@ -3469,7 +3533,7 @@
       }
     }
 
-    /* ─────────── Proof / Stats ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Proof / Stats â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .proof {
       padding: 80px 0;
       background: #fff;
@@ -3512,6 +3576,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 24px;
+      margin-bottom: 64px;
     }
 
     .quote {
@@ -3660,7 +3725,7 @@
       color: #ffb000;
     }
 
-    /* All 5 stars render fully filled amber — the numeric score gives the precision */
+    /* All 5 stars render fully filled amber â€” the numeric score gives the precision */
     .rating__stars svg.is-half,
     .rating__stars svg.is-empty {
       color: #ffb000;
@@ -3692,7 +3757,7 @@
       }
     }
 
-    /* ─────────── FAQ (design system v2 pattern) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ FAQ (design system v2 pattern) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .faq {
       padding: 80px 0;
       background: var(--uems-tint-3-surface);
@@ -3793,7 +3858,7 @@
       }
     }
 
-    /* ─────────── Contact ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Contact â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .contact {
       padding: 80px 0;
       background: #fff;
@@ -3911,7 +3976,7 @@
       }
     }
 
-    /* ─────────── Footer ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Footer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .foot {
       background: #061027;
       color: rgba(255, 255, 255, 0.72);
@@ -3996,7 +4061,7 @@
       }
     }
 
-    /* ─────────── Reveal on scroll ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Reveal on scroll â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .reveal {
       opacity: 0;
       transform: translateY(16px);
@@ -4022,7 +4087,7 @@
       }
     }
 
-    /* ─────────── Global mobile tuning ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Global mobile tuning â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 540px) {
       .container {
         padding: 0 20px;
@@ -4059,7 +4124,7 @@
       }
     }
 
-    /* ─────────── Mobile typography scale — tighter hierarchy ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Mobile typography scale â€” tighter hierarchy â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 540px) {
       .display {
         font-size: clamp(28px, 8vw, 36px);
@@ -4108,17 +4173,17 @@
       }
     }
 
-    /* ─────────── Mobile UI polish (≤ 540px) ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Mobile UI polish (â‰¤ 540px) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 540px) {
 
-      /* Hero meta — allow wrap on tiny screens (3 items won't fit one line) */
+      /* Hero meta â€” allow wrap on tiny screens (3 items won't fit one line) */
       .hero__meta {
         flex-wrap: wrap;
         white-space: normal;
         gap: 8px 16px;
       }
 
-      /* Trust band — let logos wrap on narrow screens */
+      /* Trust band â€” let logos wrap on narrow screens */
       .trust__row {
         flex-wrap: wrap;
         justify-content: center;
@@ -4141,7 +4206,7 @@
         height: 26px;
       }
 
-      /* Tabstrip — definitely no arrows, tighter pills */
+      /* Tabstrip â€” definitely no arrows, tighter pills */
       .tabstrip__btn::after {
         content: none !important;
         display: none !important;
@@ -4157,7 +4222,7 @@
         gap: 6px;
       }
 
-      /* Capability panel — tighter padding on tiny screens */
+      /* Capability panel â€” tighter padding on tiny screens */
       .cap__panel {
         padding: 20px 16px;
         gap: 16px;
@@ -4168,7 +4233,7 @@
         margin: 0 -4px;
       }
 
-      /* Pricing — already stacks via grid, just tighten gaps */
+      /* Pricing â€” already stacks via grid, just tighten gaps */
       .pricing__cards {
         gap: 16px;
       }
@@ -4182,7 +4247,7 @@
         font-size: var(--uems-font-size-h1);
       }
 
-      /* Demo form — keep stacked, narrow padding */
+      /* Demo form â€” keep stacked, narrow padding */
       .demo__form {
         padding: 20px;
       }
@@ -4191,7 +4256,7 @@
         gap: 12px;
       }
 
-      /* Industry strip — shrink card width to fit small screen */
+      /* Industry strip â€” shrink card width to fit small screen */
       .ind__card {
         flex: 0 0 240px;
       }
@@ -4200,7 +4265,7 @@
         width: 60%;
       }
 
-      /* FAQ — tighter padding */
+      /* FAQ â€” tighter padding */
       .faq-item summary {
         padding: 16px 18px;
         font-size: var(--uems-font-size-body);
@@ -4210,7 +4275,7 @@
         padding: 0 18px 16px;
       }
 
-      /* Reduce decorative overlay clutter — keep mock restrict popup smaller */
+      /* Reduce decorative overlay clutter â€” keep mock restrict popup smaller */
       .mock__restrict {
         width: 78%;
         max-width: 280px;
@@ -4219,13 +4284,13 @@
       }
     }
 
-    /* ─────────────────────────────────────────────────────────
-   Comprehensive Mobile Optimization (≤ 768px)
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+   Comprehensive Mobile Optimization (â‰¤ 768px)
    Ensures no horizontal overflow + consistent rhythm
-   ───────────────────────────────────────────────────────── */
+   â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 768px) {
 
-      /* ── Root: prevent ANY child from forcing page-wide scroll ── */
+      /* â”€â”€ Root: prevent ANY child from forcing page-wide scroll â”€â”€ */
       body {
         overflow-x: hidden;
         word-wrap: break-word;
@@ -4236,7 +4301,7 @@
         box-sizing: border-box;
       }
 
-      /* Force every block element to honor parent width — no horizontal overflow */
+      /* Force every block element to honor parent width â€” no horizontal overflow */
       section,
       article,
       aside,
@@ -4262,7 +4327,7 @@
         word-break: normal;
       }
 
-      /* ── Section rhythm: standardize to 48px vertical padding ── */
+      /* â”€â”€ Section rhythm: standardize to 48px vertical padding â”€â”€ */
       .hero,
       .cap,
       .why,
@@ -4279,7 +4344,7 @@
         gap: 6px;
       }
 
-      /* ── Hero (mobile centered) ── */
+      /* â”€â”€ Hero (mobile centered) â”€â”€ */
       .hero {
         padding-top: 32px;
       }
@@ -4305,7 +4370,7 @@
         max-width: none;
       }
 
-      /* Hero CTAs — stack vertically with equal width on mobile */
+      /* Hero CTAs â€” stack vertically with equal width on mobile */
       .hero__ctas {
         flex-direction: column;
         gap: 10px;
@@ -4327,7 +4392,7 @@
         justify-content: center;
       }
 
-      /* Floating cards — show in mobile, smaller and pinned to the dashboard */
+      /* Floating cards â€” show in mobile, smaller and pinned to the dashboard */
       .float-card--a,
       .float-card--b {
         display: flex !important;
@@ -4366,7 +4431,7 @@
         left: -6px;
       }
 
-      /* ── Trust band ── */
+      /* â”€â”€ Trust band â”€â”€ */
       .trust {
         padding: 32px 0;
       }
@@ -4399,7 +4464,7 @@
         height: 24px;
       }
 
-      /* ── Capabilities: tab strip stays inside container ── */
+      /* â”€â”€ Capabilities: tab strip stays inside container â”€â”€ */
       .cap .container {
         overflow: hidden;
       }
@@ -4464,7 +4529,7 @@
         border-color: var(--uems-color-primary);
       }
 
-      /* Capability panel — fill container, tighter padding */
+      /* Capability panel â€” fill container, tighter padding */
       .cap__panels {
         width: 100%;
         min-width: 0;
@@ -4492,10 +4557,10 @@
         min-width: 0;
       }
 
-      /* ════════════════════════════════════════════════════════
-     Mock dashboards — comprehensive mobile pass
+      /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     Mock dashboards â€” comprehensive mobile pass
      Each mock keeps its native horizontal layout but at smaller fonts.
-     ════════════════════════════════════════════════════════ */
+     â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
       /* Base mock container */
       .mock {
@@ -4515,7 +4580,7 @@
         gap: 8px;
       }
 
-      /* ── Shared atoms ── */
+      /* â”€â”€ Shared atoms â”€â”€ */
       .mock__chip {
         padding: 3px 7px;
         font-size: 9px;
@@ -4563,7 +4628,7 @@
         padding: 2px 7px;
       }
 
-      /* ── Mock 1 · File Explorer (encrypt panel) ── */
+      /* â”€â”€ Mock 1 Â· File Explorer (encrypt panel) â”€â”€ */
       .mock__topbar {
         padding: 4px 6px 0;
         gap: 4px;
@@ -4635,7 +4700,7 @@
         font-size: 8px;
       }
 
-      /* ── Mock 2 / 6 · Policy config ── */
+      /* â”€â”€ Mock 2 / 6 Â· Policy config â”€â”€ */
       .mock__policy-head {
         gap: 6px;
         flex-wrap: wrap;
@@ -4747,7 +4812,7 @@
         font-size: 7px;
       }
 
-      /* ── Mock 3 · Device Audit (4 cols) ── */
+      /* â”€â”€ Mock 3 Â· Browser activity audit (4 cols) â”€â”€ */
       .mock__audit-head {
         padding-bottom: 4px;
       }
@@ -4781,7 +4846,7 @@
         padding: 5px 8px;
       }
 
-      /* ── Mock 4 · File Tracing (4 cols) ── */
+      /* â”€â”€ Mock 4 Â· File Tracing (4 cols) â”€â”€ */
       .mock--tracing .mock__tracing-row,
       .mock__tracing-row {
         grid-template-columns: 1fr 0.9fr 1.3fr 0.8fr;
@@ -4795,7 +4860,7 @@
         padding: 5px 8px;
       }
 
-      /* ── Mock 5 · Temporary Access (3 cols) ── */
+      /* â”€â”€ Mock 5 Â· Policy exceptions (3 cols) â”€â”€ */
       .mock--temp .mock__temp-row,
       .mock__temp-row {
         grid-template-columns: 1.6fr 0.7fr 0.9fr;
@@ -4825,7 +4890,7 @@
         justify-self: end;
       }
 
-      /* ── Mock 6 · Device Access Restricted overlay ── */
+      /* â”€â”€ Mock 6 Â· Browser Policy Restricted overlay â”€â”€ */
       .mock__restrict {
         position: static;
         width: 100%;
@@ -4870,7 +4935,7 @@
         font-size: 8px;
       }
 
-      /* ── Hero console mock — compact mobile pass ── */
+      /* â”€â”€ Hero console mock â€” compact mobile pass â”€â”€ */
       .console {
         border-radius: var(--uems-radius-md);
       }
@@ -4949,7 +5014,7 @@
         padding-top: 6px;
       }
 
-      /* Float cards — keep glass effect but very compact */
+      /* Float cards â€” keep glass effect but very compact */
       .float-card {
         padding: 6px 8px;
         gap: 6px;
@@ -4988,7 +5053,7 @@
         left: 6px;
       }
 
-      /* ── Why / Demo (dark section) — stack copy above form ── */
+      /* â”€â”€ Why / Demo (dark section) â€” stack copy above form â”€â”€ */
       .demo__grid {
         grid-template-columns: 1fr;
         gap: 28px;
@@ -5020,7 +5085,7 @@
         gap: 12px;
       }
 
-      /* ── Industries ── */
+      /* â”€â”€ Industries â”€â”€ */
       .ind__grid {
         padding: 4px 16px 0;
       }
@@ -5039,7 +5104,7 @@
         height: 12px;
       }
 
-      /* ── Pricing — stack cards ── */
+      /* â”€â”€ Pricing â€” stack cards â”€â”€ */
       .pricing__cards {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -5068,7 +5133,7 @@
         white-space: normal;
       }
 
-      /* ── Proof / Stats ── */
+      /* â”€â”€ Proof / Stats â”€â”€ */
       .proof__stats {
         grid-template-columns: 1fr;
         padding: 24px;
@@ -5084,7 +5149,7 @@
         padding: 22px;
       }
 
-      /* ── FAQ ── */
+      /* â”€â”€ FAQ â”€â”€ */
       .faq-item summary {
         padding: 16px 18px;
         font-size: var(--uems-font-size-body);
@@ -5096,7 +5161,7 @@
         font-size: var(--uems-font-size-body-sm);
       }
 
-      /* ── Footer ── */
+      /* â”€â”€ Footer â”€â”€ */
       .foot {
         padding: 40px 0 24px;
       }
@@ -5136,7 +5201,7 @@
       }
     }
 
-    /* ─────────── Final mobile pass — typography & spacing polish ─────────── */
+    /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Final mobile pass â€” typography & spacing polish â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 768px) {
 
       /* Sticky header sharper on scroll */
@@ -5148,7 +5213,7 @@
         padding-block: 0;
       }
 
-      /* Section heads — keep proportional on mobile */
+      /* Section heads â€” keep proportional on mobile */
       .section__head {
         gap: 8px;
       }
@@ -5164,7 +5229,7 @@
         line-height: 1.5;
       }
 
-      /* Demo / Why section — softer + tighter on mobile */
+      /* Demo / Why section â€” softer + tighter on mobile */
       .demo__copy .h1 {
         font-size: clamp(22px, 6.5vw, 30px);
       }
@@ -5271,12 +5336,239 @@
         font-size: var(--uems-font-size-body-sm);
       }
     }
+
+    /* Final trust-band sizing overrides */
+    .trust__row {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 28px 36px;
+    }
+
+    .trust__logo {
+      height: 32px;
+      max-width: 150px;
+      opacity: 0.72;
+      flex: 0 0 auto;
+    }
+
+    .trust__logo[alt="NHS"] {
+      height: 30px;
+    }
+
+    .trust__logo[alt="Kia"] {
+      height: 28px;
+    }
+
+    .trust__logo[alt="SanDisk"] {
+      height: 30px;
+    }
+
+    .trust__logo[alt="Panasonic"] {
+      height: 26px;
+    }
+
+    .trust__logo[alt="Fuji"] {
+      height: 34px;
+    }
+
+    .trust__logo[alt="AXA"] {
+      height: 36px;
+    }
+
+    .trust__logo[alt="Tokio Marine"] {
+      height: 46px;
+    }
+
+    .trust__logo[alt="Unisys"] {
+      height: 32px;
+    }
+
+    .trust__logo[alt="Victoria Police"] {
+      height: 50px;
+    }
+
+    .trust__logo[alt="DOI OIG"] {
+      height: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .trust__row {
+        gap: 18px 22px;
+      }
+
+      .trust__logo {
+        height: 28px;
+        max-width: 118px;
+      }
+
+      .trust__logo[alt="Victoria Police"],
+      .trust__logo[alt="DOI OIG"] {
+        height: 42px;
+      }
+
+      .trust__logo[alt="Tokio Marine"],
+      .trust__logo[alt="AXA"] {
+        height: 34px;
+      }
+    }
+
+    /* Browser Security Plus additions */
+    .brand-wordmark {
+      font-family: var(--uems-font-heading);
+      font-weight: var(--uems-font-weight-bold);
+      font-size: 24px;
+      line-height: 1;
+      color: var(--uems-color-text-primary);
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+    }
+
+    .brand-wordmark--inverse {
+      color: #fff;
+    }
+
+    .console__brand-wordmark {
+      font-size: 17px;
+      font-weight: var(--uems-font-weight-bold);
+      color: var(--uems-color-text-primary);
+      white-space: nowrap;
+    }
+
+    .browser-support {
+      padding: 80px 0;
+      background: var(--uems-tint-3-surface);
+    }
+
+    .browser-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .browser-card {
+      min-height: 132px;
+      background: #fff;
+      border: 1px solid var(--uems-color-border-default);
+      border-radius: var(--uems-radius-lg);
+      padding: 20px 16px;
+      display: grid;
+      justify-items: center;
+      align-content: center;
+      gap: 12px;
+      text-align: center;
+      box-shadow: var(--uems-shadow-sm);
+      transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+    }
+
+    .browser-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--uems-tint-1-border);
+      box-shadow: var(--uems-shadow-md);
+    }
+
+    .browser-card__name {
+      font-weight: var(--uems-font-weight-semibold);
+      color: var(--uems-color-text-primary);
+      font-size: var(--uems-font-size-body-sm);
+    }
+
+    .browser-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-family: var(--uems-font-heading);
+      font-weight: var(--uems-font-weight-bold);
+      font-size: 20px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4), 0 8px 18px rgba(9, 18, 40, .12);
+    }
+
+    .browser-logo--chrome {
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 50% 50%, #fff 0 18%, #1a73e8 19% 34%, transparent 35%),
+        conic-gradient(#ea4335 0 33%, #fbbc04 0 66%, #34a853 0 100%);
+    }
+
+    .browser-logo--edge {
+      border-radius: 50%;
+      background: radial-gradient(circle at 68% 72%, #fff 0 18%, transparent 19%), conic-gradient(from 210deg, #0aa2ff, #0cc79f, #0b57d0, #0aa2ff);
+    }
+
+    .browser-logo--firefox {
+      border-radius: 50%;
+      background: radial-gradient(circle at 56% 58%, #4b1d95 0 22%, transparent 23%), conic-gradient(from 240deg, #6d28d9, #f97316, #facc15, #ef4444, #6d28d9);
+    }
+
+    .browser-logo--ulaa {
+      background: linear-gradient(135deg, #2bb673, #0c5df6);
+    }
+
+    .browser-logo--brave {
+      background: linear-gradient(135deg, #ff7a00, #e11d48);
+    }
+
+    .browser-logo--yandex {
+      background: linear-gradient(135deg, #fff, #f4f7ff);
+      color: #e21b2d;
+      border: 1px solid #e4e7ec;
+    }
+
+    .browser-logo--vivaldi {
+      background: linear-gradient(135deg, #ef4444, #b91c1c);
+    }
+
+    .browser-logo--coccoc {
+      background: linear-gradient(135deg, #12b76a, #087443);
+    }
+
+    .browser-logo--whale {
+      background: linear-gradient(135deg, #00a6a6, #0c5df6);
+    }
+
+    .browser-logo--ie {
+      background: linear-gradient(135deg, #38bdf8, #0c5df6);
+    }
+
+    @media (max-width: 960px) {
+      .browser-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 540px) {
+      .brand-wordmark {
+        font-size: 20px;
+      }
+
+      .browser-support {
+        padding: 56px 0;
+      }
+
+      .browser-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .browser-card {
+        min-height: 116px;
+        padding: 16px 12px;
+      }
+
+      .browser-logo {
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-  <!-- ─────────── HEADER (Design-system two-tier) ─────────── -->
+  <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ HEADER (Design-system two-tier) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   <header class="site-header" id="siteHeader">
     <!-- Utility (corporate) bar -->
     <div class="util">
@@ -5306,11 +5598,10 @@
     <!-- Primary product bar -->
     <div class="prinav">
       <div class="prinav__inner container">
-        <a href="#" class="prinav__brand" aria-label="Endpoint DLP Plus home">
-          <img class="prinav__logo prinav__logo--default" src="images/Endpoint DLP Plus_with ME_Black.png"
-            alt="Endpoint DLP Plus" />
-          <img class="prinav__logo prinav__logo--scrolled" src="images/Endpoint DLP Plus_with ME_Black.png"
-            alt="ManageEngine Endpoint DLP Plus" />
+        <a href="#" class="prinav__brand" aria-label="Browser Security Plus home">
+          <img src="images/Browser Security Plus_Black (2).png" alt="Browser Security Plus" style="
+    width: 300px;
+">
         </a>
         <nav class="prinav__links" aria-label="Primary">
           <a href="#capabilities" class="prinav__link">Features <svg width="12" height="12" viewBox="0 0 24 24"
@@ -5318,9 +5609,9 @@
               <path d="m6 9 6 6 6-6" />
             </svg></a>
           <a href="#demo" class="prinav__link">Demo</a>
-          <a href="#pricing" class="prinav__link">Pricing</a>
+          <a href="#pricing" class="prinav__link">Get Quote</a>
           <a href="#" class="prinav__link">Support</a>
-          <a href="#industries" class="prinav__link">Customers</a>
+          <a href="#browsers" class="prinav__link">Browsers</a>
           <button class="prinav__cta">Free Trial</button>
         </nav>
         <button class="prinav__toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -5330,21 +5621,18 @@
     </div>
   </header>
 
-  <!-- ─────────── HERO ─────────── -->
-  <!-- Pattern options: hero--pat-grid · hero--pat-circuit · hero--pat-rings · hero--pat-hex -->
   <section class="hero hero--pat-stream">
     <div class="container hero__grid">
       <div class="hero__copy">
         <h1 class="display">
-          Discover, Classify <span class="display__amp">&amp;</span> Protect <em>Every Data</em>
+          Take Complete Control of <em>Enterprise Browser Security </em>
         </h1>
         <p class="hero__sub">
-          Prevent endpoint data loss with policy-driven DLP.
-          Discover sensitive files, control data movement, and respond to risky activity from one console.
+          Give IT full visibility and control over every browser, on every device, across your organization.
         </p>
         <div class="hero__ctas">
           <a href="#" class="btn btn--primary btn--lg">Download</a>
-
+          <a href="#browsers" class="btn btn--secondary btn--lg">Sign up via Endpoint Central</a>
         </div>
         <ul class="hero__meta">
           <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
@@ -5358,7 +5646,7 @@
           <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
-            </svg> Built for endpoint data security</li>
+            </svg> Free forever up to 25 endpoints</li>
         </ul>
       </div>
 
@@ -5368,33 +5656,33 @@
           <div class="console__top">
             <span class="console__dot"></span><span class="console__dot"></span><span class="console__dot"></span>
             <div class="console__title">
-              <img src="images/Endpoint DLP Plus_with ME_Black.png" alt="Endpoint DLP Plus" class="console__logo" />
+              <span class="console__brand-wordmark">Browser Security Plus</span>
             </div>
           </div>
           <div class="console__body">
             <div class="console__stat">
               <div class="console__stat-num">2,419</div>
-              <div class="console__stat-label">Sensitive files protected</div>
+              <div class="console__stat-label">Browsers secured</div>
             </div>
             <div class="console__rows">
               <div class="console__row">
-                <span class="console__pill console__pill--allow">Classified</span>
-                <span class="console__rowtitle">Finance_Q4.xlsx · Confidential</span>
+                <span class="console__pill console__pill--allow">Compliant</span>
+                <span class="console__rowtitle">Chrome - Secure baseline applied</span>
                 <span class="console__time">2m ago</span>
               </div>
               <div class="console__row">
                 <span class="console__pill console__pill--block">Blocked</span>
-                <span class="console__rowtitle">PII export · Email upload</span>
+                <span class="console__rowtitle">Risky extension - Blocked</span>
                 <span class="console__time">3m ago</span>
               </div>
               <div class="console__row">
                 <span class="console__pill console__pill--audit">Audited</span>
-                <span class="console__rowtitle">source_code.zip · 14 MB</span>
+                <span class="console__rowtitle">Web activity - Tracked</span>
                 <span class="console__time">6m ago</span>
               </div>
               <div class="console__row">
                 <span class="console__pill console__pill--jit">Remediate</span>
-                <span class="console__rowtitle">Engineering · Owner notified</span>
+                <span class="console__rowtitle">Legacy app - Routed</span>
                 <span class="console__time">8m ago</span>
               </div>
             </div>
@@ -5419,8 +5707,8 @@
             </svg>
           </div>
           <div>
-            <div class="float-card__title">Sensitive data classified</div>
-            <div class="float-card__sub">PII and financial data detected</div>
+            <div class="float-card__title">Extension risk blocked</div>
+            <div class="float-card__sub">Policy: Trusted add-ons only</div>
           </div>
         </div>
         <div class="float-card float-card--b">
@@ -5431,529 +5719,625 @@
             </svg>
           </div>
           <div>
-            <div class="float-card__title">Data exfiltration blocked</div>
-            <div class="float-card__sub">Policy: Confidential-Data-Protection</div>
+            <div class="float-card__title">Browser settings hardened</div>
+            <div class="float-card__sub">Policy: Enterprise secure baseline</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ─────────── TRUST BAND ─────────── -->
+
+  <!-- TRUST BAND -->
   <section class="trust">
     <div class="container">
       <div class="trust__label">Trusted by leading brands worldwide</div>
       <div class="trust__track">
         <div class="trust__row">
-          <img class="trust__logo" src="images/melita-logo.png" alt="melita" />
-          <img class="trust__logo" src="images/unisys-logo.png" alt="unisys" style="
+          <img class="trust__logo" src="images/water-sevage-department-logo.png" alt="Melita" style="
     width: 200px;
-    height: 200px;
+    height: 150px;
 ">
-          <img class="trust__logo" src="images/willseye-logo.png" alt="willseye" />
-          <img class="trust__logo" src="images/shireffs-logo.png" alt="shireffs" />
-          <img class="trust__logo" src="images/qafac-logo.png" alt="qafac" style="
-    width: 50px;
-    height: 50px;
-">
-        </div>
-        <div class="trust__row" aria-hidden="true">
-          <img class="trust__logo" src="images/melita-logo.png" alt="melita" />
-          <img class="trust__logo" src="images/unisys-logo.png" alt="unisys" style="
+          <img class="trust__logo" src="images/nycdoitt-logo.png" alt="Unisys" style="
     width: 200px;
-    height: 200px;
+    height: 150px;
 ">
-          <img class="trust__logo" src="images/willseye-logo.png" alt="willseye" />
-          <img class="trust__logo" src="images/shireffs-logo.png" alt="shireffs" />
-          <img class="trust__logo" src="images/qafac-logo.png" alt="qafac" style="
+          <img class="trust__logo" src="images/sccsb-logo.png" alt="Wills Eye" style="
+    width: 100px;
+    height: 100px;
+">
+          <img class="trust__logo" src="images/erhny-logo.png" alt="Shireffs" style="
+    width: 100px;
+    height: 100px;
+">
+          <img class="trust__logo" src="images/city-of-dallas-logo.png" alt="QAFAC" style="
     width: 50px;
     height: 50px;
 ">
         </div>
       </div>
     </div>
-    </div>
   </section>
 
-  <!-- ─────────── CAPABILITIES ─────────── -->
-  <section class="cap" id="capabilities">
-    <div class="container">
-      <header class="section__head section__head--center">
-        <h2 class="h1">Bring sensitive data under control</h2>
-      </header>
+  <!-- CAPABILITIES -->
+ <style>
+.cap-new { font-family: var(--uems-font-body); padding: 80px 0; background: #fff; }
+.cap-new__layout { display: grid; grid-template-columns: 220px 1fr; gap: 1.5rem; align-items: start; }
+.cap-new .tabstrip-new { display: flex; flex-direction: column; gap: 4px; }
+.cap-new .tab-btn {
+  display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+  border-radius: var(--uems-radius-md); border: 1px solid transparent;
+  background: transparent; color: var(--uems-color-text-secondary);
+  font-size: 16px; font-weight: 400; text-align: left; cursor: pointer;
+  transition: background .15s, color .15s; font-family: var(--uems-font-body); line-height: 1.4;
+}
+.cap-new .tab-btn:hover { background: var(--uems-tint-3-surface); color: var(--uems-color-text-primary); }
+.cap-new .tab-btn.active {
+  background: var(--uems-color-primary); color: #fff;
+  border-color: var(--uems-color-primary); font-weight: 600;
+}
+.cap-new .panel { display: none; }
+.cap-new .panel.active { display: block; }
+.cap-new .panel-inner {
+  background: var(--uems-tint-1-surface); border: 1px solid var(--uems-tint-1-border);
+  border-radius: var(--uems-radius-lg); padding: 32px; min-height: 420px;
+}
+.cap-new .panel-title {
+  font-family: var(--uems-font-heading); font-size: var(--uems-font-size-h3);
+  font-weight: var(--uems-font-weight-bold); color: var(--uems-color-text-primary); margin-bottom: 6px;
+}
+.cap-new .panel-lead {
+  font-size: var(--uems-font-size-body); color: var(--uems-color-text-tertiary);
+  margin-bottom: 20px; line-height: 1.6;
+}
+.cap-new .mock {
+  background: #fff; border: 1px solid var(--uems-color-border-default);
+  border-radius: var(--uems-radius-lg); overflow: hidden; box-shadow: var(--uems-shadow-md);
+}
+.cap-new .mock-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; border-bottom: 1px solid var(--uems-color-border-light);
+  background: var(--uems-tint-3-surface);
+}
+.cap-new .mock-chip {
+  font-size: 11px; font-weight: 600; background: var(--uems-tint-1-surface);
+  color: var(--uems-color-primary); padding: 3px 10px; border-radius: var(--uems-radius-pill);
+}
+.cap-new .mock-btn {
+  font-size: 11px; font-weight: 600; padding: 5px 12px; border-radius: var(--uems-radius-md);
+  border: 1px solid var(--uems-color-border-default); background: #fff;
+  color: var(--uems-color-text-primary); cursor: pointer; font-family: var(--uems-font-body);
+}
+.cap-new .mock-section {
+  padding: 10px 14px; border-bottom: 1px solid var(--uems-color-border-light);
+}
+.cap-new .mock-section:last-child { border-bottom: none; }
+.cap-new .mock-section-title {
+  font-size: 10px; font-weight: 700; color: var(--uems-color-text-tertiary);
+  text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px;
+}
+.cap-new .mock-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 5px 0; font-size: 12px; color: var(--uems-color-text-secondary);
+}
+.cap-new .mock-select {
+  font-size: 11px; color: var(--uems-color-text-tertiary); background: var(--uems-tint-3-surface);
+  border: 1px solid var(--uems-color-border-default); border-radius: var(--uems-radius-md); padding: 2px 8px;
+}
+.cap-new .mock-select.block { color: var(--uems-color-error); border-color: var(--uems-color-error); }
+.cap-new .mock-toggle {
+  width: 28px; height: 16px; border-radius: var(--uems-radius-pill);
+  background: #d0d6e0; position: relative; flex-shrink: 0;
+}
+.cap-new .mock-toggle.on { background: var(--uems-color-primary); }
+.cap-new .mock-toggle::after {
+  content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px;
+  border-radius: 50%; background: #fff; transition: left .15s;
+}
+.cap-new .mock-toggle.on::after { left: 14px; }
+.cap-new .badge {
+  font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: var(--uems-radius-pill);
+  letter-spacing: .04em; text-transform: uppercase;
+}
+.cap-new .badge-green { background: #e7f7ee; color: #0c8a4a; }
+.cap-new .badge-red { background: #fde9eb; color: #b01327; }
+.cap-new .badge-yellow { background: #fef3d3; color: #8a6300; }
+.cap-new .mock-table .mock-row-head {
+  font-size: 10px; font-weight: 600; color: var(--uems-color-text-tertiary);
+  display: grid; padding: 7px 14px; border-bottom: 1px solid var(--uems-color-border-light);
+  background: var(--uems-tint-3-surface); letter-spacing: .03em;
+}
+.cap-new .mock-table .mock-row-data {
+  display: grid; padding: 8px 14px; font-size: 12px; color: var(--uems-color-text-secondary);
+  border-bottom: 1px solid var(--uems-color-border-light);
+}
+.cap-new .mock-table .mock-row-data:last-child { border-bottom: none; }
+.cap-new .cols3 { grid-template-columns: 1fr 90px 70px; }
+.cap-new .cols4 { grid-template-columns: 1fr 70px 70px 65px; }
+.cap-new .mock-filters { display: flex; gap: 6px; }
+.cap-new .mock-pill {
+  font-size: 11px; padding: 3px 10px; border-radius: var(--uems-radius-pill);
+  background: var(--uems-tint-3-surface); color: var(--uems-color-text-tertiary);
+  border: 1px solid var(--uems-color-border-default);
+}
+.cap-new .mock-pill.accent {
+  background: var(--uems-tint-1-surface); color: var(--uems-color-primary); border-color: var(--uems-tint-1-border);
+}
+.cap-new .restrict-box {
+  margin: 10px 14px 14px; border: 1px solid var(--uems-color-error);
+  border-radius: var(--uems-radius-md); overflow: hidden;
+}
+.cap-new .restrict-head {
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px;
+  background: #2d7aff; color: #fff; font-weight: 600; font-size: 12px;
+}
+.cap-new .restrict-warn {
+  width: 18px; height: 18px; border-radius: var(--uems-radius-sm); background: var(--uems-color-highlight);
+  color: var(--uems-color-highlight-text); display: flex; align-items: center;
+  justify-content: center; font-size: 10px; font-weight: 700; flex-shrink: 0;
+}
+.cap-new .restrict-body { padding: 10px 12px; font-size: 12px; color: var(--uems-color-text-primary); }
+.cap-new .restrict-msg { margin-bottom: 8px; color: var(--uems-color-text-tertiary); }
+.cap-new .restrict-dl {
+  display: grid; grid-template-columns: auto 1fr; gap: 3px 12px; font-size: 11px;
+}
+.cap-new .restrict-dl dt { color: var(--uems-color-text-tertiary); }
+.cap-new .restrict-dl dd { margin: 0; color: var(--uems-color-text-primary); font-weight: 600; }
+.cap-new .leakage-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 6px 0; font-size: 12px; color: var(--uems-color-text-secondary);
+  border-bottom: 1px solid var(--uems-color-border-light);
+}
+.cap-new .leakage-row:last-child { border-bottom: none; }
+.cap-new .tag { font-size: 10px; padding: 2px 7px; border-radius: var(--uems-radius-pill); margin-left: 6px; }
+.cap-new .tag-ai { background: var(--uems-tint-1-surface); color: var(--uems-color-primary); }
 
-      <div class="cap__layout">
-        <aside class="tabstrip-wrap">
-          <div class="tabstrip">
-            <div class="tabstrip__inner" role="tablist" aria-label="Capabilities" aria-orientation="vertical">
-              <button class="tabstrip__btn is-active" role="tab" aria-selected="true" data-tab="ai-det">AI-Powered Data
-                Detection</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="rule-det">Rule-Based Content
-                Scanning</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="context-cls">Context-Aware
-                Classification</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="audit-mov">Sensitive File
-                Activity Auditing</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="screen-clip">Screen Capture &
-                Clipboard Control</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="usb-ctrl">USB Transfer
-                Control</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="web-prev">Web Application Upload
-                Prevention</button>
-              <button class="tabstrip__btn" role="tab" aria-selected="false" data-tab="print-rest">Print Control &amp;
-                Watermarking</button>
-            </div>
-          </div>
-        </aside>
-
-        <div class="cap__panels">
-
-          <article class="cap__panel is-active" data-panel="ai-det">
-            <div class="cap__copy">
-              <h3 class="h2">AI-Powered Data Detection</h3>
-              <p class="lead">Detect hidden data via image OCR to stop leaks
-                that bypass traditional signature rules.</p>
-              <ul class="cap__features">
-                <li>Deploy machine learning scanning engines to spot complex sensitive information without needing exact
-                  keyword matches.</li>
-                <li>Identify structural anomalies, intellectual property concepts, and hidden organizational text
-                  patterns instantly.</li>
-                <li>Keep data protection continuous on local endpoints even when user workstations go fully offline.
-                </li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--policy">
-              <div class="mock__policy-head">
-                <span class="mock__chip">▦ Core_Policy_AI</span>
-              </div>
-              <div class="mock__policy-sub">
-                <span class="mock__policy-sub-icon">🧠</span> Heuristic Scanning Settings
-              </div>
-              <div class="mock__policy-section mock__policy-section--hl">
-                <div class="mock__policy-row">
-                  <span>AI-Assessed Risk Level <span class="mock__q">?</span></span>
-                  <span class="mock__select mock__select--block">Block High Risk ▾</span>
-                </div>
-                <div class="mock__policy-checkboxes">
-                  <div class="mock__policy-section-title">Scan unstructured assets inside:</div>
-                  <div class="mock__checkboxes">
-                    <label class="is-on"><span class="mock__check"></span> Image Text (OCR)</label>
-                    <label class="is-on"><span class="mock__check"></span> Draft Documents</label>
-                    <label class="is-on"><span class="mock__check"></span> Source Repositories</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="rule-det">
-            <div class="cap__copy">
-              <h3 class="h2">Rule-Based Content Scanning</h3>
-              <p class="lead">Use built-in rules to detect common sensitive patterns and file types.</p>
-              <ul class="cap__features">
-                <li>Scan files against pre-built global regex formats covering SSN, credit cards, healthcare records,
-                  and tax IDs.</li>
-                <li>Establish explicit dictionary terms and custom keywords specific to corporate governance.</li>
-                <li>Trigger direct remediation workflows the exact millisecond a regulatory compliance pattern matches.
-                </li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--policy">
-              <div class="mock__policy-head">
-                <span class="mock__chip">▦ Policy_Reg_Signatures</span>
-              </div>
-              <div class="mock__policy-sub">
-                <span class="mock__policy-sub-icon">⛁</span> Identifier Validation Rules
-              </div>
-              <div class="mock__policy-section mock__policy-section--hl">
-                <div class="mock__policy-section-title">Active Data Dictionaries</div>
-                <div class="mock__policy-row mock__policy-row--toggle">
-                  <span>PCI-DSS Credit Card Patterns (16-Digit Luhn Check)</span>
-                  <span class="mock__toggle mock__toggle--on" aria-label="on"></span>
-                </div>
-                <div class="mock__policy-row mock__policy-row--toggle">
-                  <span>National PII &amp; Social Security Numbers</span>
-                  <span class="mock__toggle mock__toggle--on" aria-label="on"></span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="context-cls">
-            <div class="cap__copy">
-              <h3 class="h2">Context-Aware Classification</h3>
-              <p class="lead">Automatically labels files based on where they come from (for example, a file downloaded
-                from a CRM).</p>
-              <ul class="cap__features">
-                <li>Inherit persistent security metadata classifications instantly upon document generation or cloud
-                  extraction.</li>
-                <li>Analyze source application streams like enterprise CRMs or HR portals to apply accurate label tags.
-                </li>
-                <li>Maintain data tags across operations, protecting files if they are copied, renamed, or zipped.</li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--audit">
-              <div class="mock__audit-head">
-                <span class="mock__audit-title">🏷️ Contextual Metadata Tags</span>
-              </div>
-              <div class="mock__audit-table">
-                <div class="mock__audit-row mock__audit-row--head">
-                  <span>Application Source</span><span>File Target</span><span>Assigned Label</span>
-                </div>
-                <div class="mock__audit-row"><span>Salesforce CRM</span><span>Export_Leads.csv</span><span
-                    class="badge badge--red">Confidential PII</span></div>
-                <div class="mock__audit-row"><span>Workday HR</span><span>Salary_2026.xlsx</span><span
-                    class="badge badge--red">Restricted PHI</span></div>
-                <div class="mock__audit-row"><span>Internal GitLab</span><span>Core_Engine.py</span><span
-                    class="badge badge--orange">Proprietary IP</span></div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="audit-mov">
-            <div class="cap__copy">
-              <h3 class="h2">Sensitive File Activity Auditing</h3>
-              <p class="lead">Map exact file trajectories and user activity to spot data leakage risks before enforcing
-                controls.</p>
-              <ul class="cap__features">
-                <li>Record interactive logs containing file paths, destinations, user profiles, and precise change
-                  timestamps.</li>
-                <li>Track granular system behavior metrics across local copy, duplication, drag-and-drop, and rename
-                  routines.</li>
-                <li>Investigate complex insider movement vectors with searchable data forensics logs to improve policy
-                  rules.</li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--tracing">
-              <div class="mock__audit-head">
-                <span class="mock__audit-title">🔍 File Infrastructure Activity Trace</span>
-              </div>
-              <div class="mock__tracing-table">
-                <div class="mock__tracing-row mock__tracing-row--head">
-                  <span>Endpoint Node</span><span>Data Category</span><span>Active Document</span><span>Action
-                    Log</span>
-                </div>
-                <div class="mock__tracing-row"><span>User-Desktop-A</span><span class="badge badge--red">Financial
-                    (PCI)</span><span>Ledger.csv</span><span class="badge badge--green">Allowed Log</span></div>
-                <div class="mock__tracing-row"><span>User-Desktop-B</span><span class="badge badge--orange">Intellectual
-                    Prop</span><span>Build_Key.pem</span><span class="badge badge--green">Allowed Log</span></div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="screen-clip">
-            <div class="cap__copy">
-              <h3 class="h2">Screen Capture & Clipboard Control</h3>
-              <p class="lead">Block unauthorized screenshots, screen recordings, and clipboard transfers of sensitive
-                on-screen data.</p>
-              <ul class="cap__features">
-                <li>Intercept unapproved personal tools, hex tools, or untrusted editors attempting to access protected
-                  databases.</li>
-                <li>Deter data scraping or unauthorized rendering operations directly at the OS application frame layer.
-                </li>
-                <li>Provide in-app notification alerts when a user triggers execution limits.</li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--temp">
-              <div class="mock__audit-head">
-                <span class="mock__audit-title">🔒 Screen & Clipboard Interception Log</span>
-              </div>
-              <div class="mock__temp-table">
-                <div class="mock__temp-row mock__temp-row--head">
-                  <span>Action Type</span><span>Target Content</span><span>Application</span><span>Policy Action</span>
-                </div>
-                <div class="mock__temp-row"><span>Screen
-                    Capture</span><span>Financial_Report_Q2.pdf</span><span>Snipping Tool</span><span
-                    class="badge badge--red">Blocked</span></div>
-                <div class="mock__temp-row"><span>Clipboard Copy</span><span>SSN Data —
-                    HR_Export.xlsx</span><span>Excel</span><span class="badge badge--red">Blocked</span></div>
-                <div class="mock__temp-row"><span>Screen Record</span><span>CRM Dashboard View</span><span>OBS
-                    Studio</span><span class="badge badge--red">Blocked</span></div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="usb-ctrl">
-            <div class="cap__copy">
-              <h3 class="h2">USB Transfer Control</h3>
-              <p class="lead">Control and block sensitive data transfers to USB storage devices and removable media
-                endpoints.</p>
-              <ul class="cap__features">
-                <li>Detect and block file transfers to unregistered or personal USB storage devices automatically.</li>
-                <li>Enforce read-only mode on removable media for users without elevated data transfer permissions.</li>
-                <li>Log all USB connection events and attempted transfers for forensic audit and compliance reporting.
-                </li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--temp">
-              <div class="mock__audit-head">
-                <span class="mock__audit-title">🔌 USB Device Transfer Control</span>
-              </div>
-              <div class="mock__temp-table">
-                <div class="mock__temp-row mock__temp-row--head">
-                  <span>Device</span><span>File Transferred</span><span>Data Category</span><span>Policy Action</span>
-                </div>
-                <div class="mock__temp-row"><span>SanDisk USB 3.0</span><span>Client_Data.csv</span><span
-                    class="badge badge--red">Confidential PII</span><span class="badge badge--red">Blocked</span></div>
-                <div class="mock__temp-row"><span>Kingston DataTraveler</span><span>Source_Core.zip</span><span
-                    class="badge badge--orange">Proprietary IP</span><span class="badge badge--red">Blocked</span></div>
-                <div class="mock__temp-row"><span>Unknown — unregistered</span><span>Payroll_Aug.xlsx</span><span
-                    class="badge badge--red">Restricted PHI</span><span class="badge badge--red">Blocked + Alert</span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="web-prev">
-            <div class="cap__copy">
-              <h3 class="h2">Web Application Upload Prevention</h3>
-              <p class="lead">Prevent sensitive files from being uploaded to browsers and cloud apps.</p>
-              <ul class="cap__features">
-                <li>Inspect web form fields, attachment packets, and browser payloads before outbound network transit.
-                </li>
-                <li>Restrict data transfer to unauthorized personal webmails, cloud drives, and collaboration channels.
-                </li>
-                <li>Enforce web boundaries without requiring complex proxies or slowing down valid enterprise browser
-                  work.</li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--explorer">
-              <div class="mock__topbar">
-                <span class="mock__tab">🌐 Cloud Web Security Sandbox</span>
-              </div>
-              <div class="mock__explorer-body">
-                <div class="mock__toast">
-                  <div class="mock__toast-head">
-                    <span class="mock__toast-icon">🛡</span>
-                    <strong>Web Transmission Intercepted</strong>
-                  </div>
-                  <p class="mock__toast-body">Uploads containing company PII data are restricted on personal cloud
-                    instances.</p>
-                  <div class="mock__toast-actions">
-                    <button class="mock__btn mock__btn--primary" disabled>Upload Blocked</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="cap__panel" data-panel="print-rest">
-            <div class="cap__copy">
-              <h3 class="h2">Print Control &amp; Watermarking</h3>
-              <p class="lead">Restrict document printing and inject watermarks directly onto approved print releases.
-              </p>
-              <ul class="cap__features">
-                <li>Block document spooling actions to local, network, or virtual PDF printer engines for classified
-                  assets.</li>
-                <li>Inject dynamic, traceable watermark metadata (e.g., User ID, Device IP, Timestamp) as a background
-                  overlay.</li>
-                <li>Log printer jobs to maintain clean visibility into physical asset security.</li>
-              </ul>
-            </div>
-            <div class="cap__visual mock mock--policy">
-              <div class="mock__policy-head">
-                <span class="mock__chip">▦ Policy_Print_Control</span>
-              </div>
-              <div class="mock__policy-section mock__policy-section--hl">
-                <div class="mock__policy-section-title">Physical Peripheral Output Matrix</div>
-                <div class="mock__policy-row mock__policy-row--toggle">
-                  <span>Restrict printer spooling for Classified documents</span>
-                  <span class="mock__toggle mock__toggle--on" aria-label="on"></span>
-                </div>
-                <div class="mock__policy-row mock__policy-row--toggle">
-                  <span>Embed active tracking watermarks dynamically on release</span>
-                  <span class="mock__toggle mock__toggle--on" aria-label="on"></span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="dlp-image-section">
-  <img
-    src="images/manageengine-dlp-plus.png"
-    alt="ManageEngine DLP Plus"
-    class="dlp-image"
-  />
-</section>
-
-<style>
-  .dlp-image-section {
-    width: 100%;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+@media (max-width: 900px) {
+  .cap-new__layout { grid-template-columns: 1fr; }
+  .cap-new .tabstrip-new {
+    flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 8px;
+    scrollbar-width: none; padding-bottom: 4px;
   }
-
-  .dlp-image {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    display: block;
+  .cap-new .tabstrip-new::-webkit-scrollbar { display: none; }
+  .cap-new .tab-btn {
+    flex-shrink: 0; white-space: nowrap; border-radius: var(--uems-radius-pill);
+    border: 1px solid var(--uems-color-border-default); background: #fff; color: var(--uems-color-text-secondary);
   }
+  .cap-new .tab-btn.active { background: var(--uems-color-primary); color: #fff; border-color: var(--uems-color-primary); }
+}
 </style>
 
-  <!-- ─────────── INDUSTRIES ─────────── -->
-  <section class="ind" id="industries">
+<section class="cap-new" id="capabilities">
+  <div class="container">
+    <header class="section__head section__head--center">
+      <h2 class="h1">Manage and secure enterprise browsers from one console.</h2>
+      <p class="section__sub">Use Browser Security Plus to control extensions, filter the web, restrict file activity, lock down browsers, and prevent data leaks — all from one place.</p>
+    </header>
+
+    <div class="cap-new__layout">
+      <aside>
+        <nav class="tabstrip-new" role="tablist" aria-label="Capabilities">
+          <button class="tab-btn active" role="tab" aria-selected="true" onclick="capTab(this,'cap-ext')">Extension management</button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="capTab(this,'cap-web')">Web filter</button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="capTab(this,'cap-file')">File activity restriction</button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="capTab(this,'cap-lock')">Browser lockdown</button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="capTab(this,'cap-restrict')">Browser restriction</button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="capTab(this,'cap-dlp')">Data leakage prevention</button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="capTab(this,'cap-comp')">Browser compliance reporting</button>
+        </nav>
+      </aside>
+
+      <div class="cap-new__panels">
+
+        <div class="panel active" id="cap-ext">
+          <div class="panel-inner">
+            <div class="panel-title">Extension management</div>
+            <p class="panel-lead">Control which extensions and plugins are allowed to run across your organization's browsers.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">Add-on control</span>
+                <div class="mock-filters"><span class="mock-pill accent">Managed</span><span class="mock-pill">All browsers</span></div>
+              </div>
+              <div class="mock-table">
+                <div class="mock-row-head cols4"><span>Add-on</span><span>Browser</span><span>Type</span><span>Status</span></div>
+                <div class="mock-row-data cols4"><span>Unknown coupon toolbar</span><span>Chrome</span><span>Extension</span><span class="badge badge-red">Blocked</span></div>
+                <div class="mock-row-data cols4"><span>Legacy helper object</span><span>IE</span><span>BHO</span><span class="badge badge-yellow">Review</span></div>
+                <div class="mock-row-data cols4"><span>Password manager</span><span>Edge</span><span>Extension</span><span class="badge badge-green">Allowed</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="cap-web">
+          <div class="panel-inner">
+            <div class="panel-title">Web filter</div>
+            <p class="panel-lead">Allow or block websites using AI-powered content categories to enforce browsing policies and stay ahead of evolving web threats.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">Website categorization</span>
+                <div class="mock-filters"><span class="mock-pill accent">Real-time AI</span></div>
+              </div>
+              <div class="mock-table">
+                <div class="mock-row-head cols3"><span>Website</span><span>Category</span><span>Policy</span></div>
+                <div class="mock-row-data cols3"><span>new-saas.example</span><span>Business</span><span class="badge badge-green">Allowed</span></div>
+                <div class="mock-row-data cols3"><span>unknown-games.example</span><span>Games</span><span class="badge badge-red">Blocked</span></div>
+                <div class="mock-row-data cols3"><span>new-fileshare.example</span><span>File sharing</span><span class="badge badge-yellow">Review</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="cap-file">
+          <div class="panel-inner">
+            <div class="panel-title">File activity restriction</div>
+            <p class="panel-lead">Block unauthorized file uploads and downloads through the browser to ensure sensitive data only moves through trusted, IT-approved sources.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">Download_Control_Policy</span>
+                <button class="mock-btn">Save policy</button>
+              </div>
+              <div class="mock-section" style="background:var(--uems-tint-3-surface)">
+                <div class="mock-section-title">Download rules</div>
+                <div class="mock-row"><span>Executable files</span><span class="mock-select block">Block</span></div>
+                <div class="mock-row"><span>Compressed archives</span><span class="mock-select">Allow from trusted sites</span></div>
+                <div class="mock-row"><span>Unknown / uncategorized sites</span><span class="mock-select block">Restrict</span></div>
+              </div>
+              <div class="mock-section">
+                <div class="mock-section-title">Upload rules</div>
+                <div class="mock-row"><span>Block uploads to personal cloud storage</span><span class="mock-toggle on"></span></div>
+                <div class="mock-row"><span>Policy action</span><span class="mock-select">Warn and log</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="cap-lock">
+          <div class="panel-inner">
+            <div class="panel-title">Browser lockdown</div>
+            <p class="panel-lead">Run browsers in kiosk mode with a whitelist of trusted sites to enforce controlled browsing.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">Kiosk_Browsing_Policy</span>
+                <button class="mock-btn">Save policy</button>
+              </div>
+              <div class="mock-section" style="background:var(--uems-tint-3-surface)">
+                <div class="mock-section-title">Lockdown controls</div>
+                <div class="mock-row"><span>Allowed websites</span><span class="mock-select">Approved list only</span></div>
+                <div class="mock-row"><span>Disable address bar and navigation</span><span class="mock-toggle on"></span></div>
+                <div class="mock-row"><span>Disable menus, toolbars, shortcuts</span><span class="mock-toggle on"></span></div>
+              </div>
+              <div class="restrict-box">
+                <div class="restrict-head">
+                  <div class="restrict-warn">!</div>
+                  <span>Access restricted</span>
+                </div>
+                <div class="restrict-body">
+                  <p class="restrict-msg">This site is not available in kiosk browsing mode.</p>
+                  <dl class="restrict-dl"><dt>Policy</dt><dd>Approved sites only</dd><dt>Action</dt><dd>Blocked</dd></dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="cap-restrict">
+          <div class="panel-inner">
+            <div class="panel-title">Browser restriction</div>
+            <p class="panel-lead">Mandate the use of only approved browsers across your organization to eliminate cross-browser vulnerabilities.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">Browser_Allowlist_Policy</span>
+                <button class="mock-btn">Deploy</button>
+              </div>
+              <div class="mock-section" style="background:var(--uems-tint-3-surface)">
+                <div class="mock-section-title">Approved browsers</div>
+                <div class="mock-row"><span>Google Chrome (latest)</span><span class="badge badge-green">Allowed</span></div>
+                <div class="mock-row"><span>Microsoft Edge (latest)</span><span class="badge badge-green">Allowed</span></div>
+                <div class="mock-row"><span>Firefox ESR</span><span class="badge badge-yellow">Conditional</span></div>
+                <div class="mock-row"><span>Any other browser</span><span class="badge badge-red">Blocked</span></div>
+              </div>
+              <div class="mock-section">
+                <div class="mock-section-title">Enforcement</div>
+                <div class="mock-row"><span>Redirect to approved browser on launch</span><span class="mock-toggle on"></span></div>
+                <div class="mock-row"><span>Log non-compliant browser usage</span><span class="mock-toggle on"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="cap-dlp">
+          <div class="panel-inner">
+            <div class="panel-title">Data leakage prevention</div>
+            <p class="panel-lead">Stop enterprise data leakage by disabling risky browser features and blocking employees from pasting sensitive information into generative AI sites.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">DLP_Browser_Policy</span>
+                <button class="mock-btn">Deploy</button>
+              </div>
+              <div class="mock-section" style="background:var(--uems-tint-3-surface)">
+                <div class="mock-section-title">Disabled features</div>
+                <div class="mock-row"><span>Disable autofill on sensitive forms</span><span class="mock-toggle on"></span></div>
+                <div class="mock-row"><span>Disable browser print</span><span class="mock-toggle on"></span></div>
+                <div class="mock-row"><span>Disable browser sync / cloud save</span><span class="mock-toggle on"></span></div>
+              </div>
+              <div class="mock-section">
+                <div class="mock-section-title">AI site controls <span class="tag tag-ai">Generative AI</span></div>
+                <div class="leakage-row"><span>Block paste into ChatGPT</span><span class="badge badge-red">Blocked</span></div>
+                <div class="leakage-row"><span>Block paste into Google Gemini</span><span class="badge badge-red">Blocked</span></div>
+                <div class="leakage-row"><span>Block paste into Copilot</span><span class="badge badge-red">Blocked</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="cap-comp">
+          <div class="panel-inner">
+            <div class="panel-title">Browser compliance reporting</div>
+            <p class="panel-lead">Measure and report on browser security compliance against CIS and STIG standards across every endpoint.</p>
+            <div class="mock">
+              <div class="mock-head">
+                <span class="mock-chip">Compliance summary</span>
+                <div class="mock-filters"><span class="mock-pill accent">CIS</span><span class="mock-pill">STIG</span></div>
+              </div>
+              <div class="mock-table">
+                <div class="mock-row-head cols4"><span>Check</span><span>Browser</span><span>Endpoints</span><span>Status</span></div>
+                <div class="mock-row-data cols4"><span>Password manager disabled</span><span>Chrome</span><span>128</span><span class="badge badge-green">Pass</span></div>
+                <div class="mock-row-data cols4"><span>Pop-ups restricted</span><span>Edge</span><span>96</span><span class="badge badge-green">Pass</span></div>
+                <div class="mock-row-data cols4"><span>Risky protocol handlers</span><span>Firefox</span><span>14</span><span class="badge badge-yellow">Review</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+function capTab(btn, panelId) {
+  var nav = btn.closest('.tabstrip-new');
+  nav.querySelectorAll('.tab-btn').forEach(function(b) {
+    b.classList.remove('active');
+    b.setAttribute('aria-selected', 'false');
+  });
+  document.querySelectorAll('.cap-new__panels .panel').forEach(function(p) {
+    p.classList.remove('active');
+  });
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected', 'true');
+  document.getElementById(panelId).classList.add('active');
+}
+</script>
+
+<script>
+function switchTab(btn, panelId) {
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    b.classList.remove('active');
+    b.setAttribute('aria-selected', 'false');
+  });
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected', 'true');
+  document.getElementById('panel-' + panelId).classList.add('active');
+}
+</script>
+  <!-- ─────────── SUPPORTED BROWSERS ─────────── -->
+  <section class="browser-support" id="browsers">
     <div class="container">
       <header class="section__head section__head--center">
-        <h2 class="h1">Data Loss Prevention Software Built for Regulated Industries</h2>
-        <p class="section__sub">Endpoint DLP Plus helps organizations protect sensitive data and meet their compliance
-          and security requirements.</p>
+        <h2 class="h1">
+          Manage multiple browsers seamlessly from a single interface.
+        </h2>
+        
       </header>
-      <div class="ind__grid">
-        <article class="ind__card">
-          <h3 class="ind__title">Healthcare</h3>
-          <div class="ind__logo">
-            <strong class="ind__compliance">HIPAA</strong>
-          </div>
-          <p class="ind__copy">Prevent unauthorized transfer of patient records and PHI across clinical endpoints with
-            automated data loss controls.</p>
-        </article>
-        <article class="ind__card">
-          <h3 class="ind__title">Financial Services</h3>
-          <div class="ind__logo">
-            <strong class="ind__compliance">PCI DSS</strong>
-          </div>
-          <p class="ind__copy">Secure customer financial data and meet PCI-DSS requirements for payment card protection.</p>
+
+      <div class="browser-grid" aria-label="Supported browsers">
+
+        <article class="browser-card">
+          <img src="images/Google_Chrome_icon_(March_2011).svg" alt="Google Chrome" class="browser-logo">
+          <span class="browser-card__name">Google Chrome</span>
         </article>
 
-        <article class="ind__card">
-          <h3 class="ind__title">EU & Global Businesses</h3>
-          <div class="ind__logo">
-            <strong class="ind__compliance">GDPR</strong>
-          </div>
-          <p class="ind__copy">Maintain personal data confidentiality and meet GDPR compliance obligations with robust
-            endpoint protection measures.</p>
+        <article class="browser-card">
+          <img src="images/Microsoft_Edge_logo_(2019).svg" alt="Microsoft Edge" class="browser-logo">
+          <span class="browser-card__name">Microsoft Edge</span>
         </article>
 
-        <article class="ind__card">
-          <h3 class="ind__title">Defense Contractors</h3>
-          <div class="ind__logo">
-            <strong class="ind__compliance">CMMC</strong>
-          </div>
-          <p class="ind__copy">Restrict CUI movement across endpoints and removable media to satisfy defense supply
-            chain data protection mandates.</p>
+        <article class="browser-card">
+          <img src="images/Firefox_logo,_2019.svg" alt="Mozilla Firefox" class="browser-logo">
+          <span class="browser-card__name">Mozilla Firefox</span>
         </article>
 
-        <article class="ind__card">
-          <h3 class="ind__title">Government Agencies</h3>
-          <div class="ind__logo ind__logo--text">
-            <strong class="ind__compliance">NIST</strong>
-          </div>
-          <p class="ind__copy">Prevent unauthorized data transfers and enforce endpoint DLP controls across federal
-            agencies, defense contractors, and research institutions.</p>
+        <article class="browser-card">
+          <img src="images/ulaa_ham.png" alt="Ulaa" class="browser-logo">
+          <span class="browser-card__name">Ulaa</span>
         </article>
 
-        <article class="ind__card">
-          <h3 class="ind__title">Law Enforcement</h3>
-          <div class="ind__logo">
-            <strong class="ind__compliance">CJIS</strong>
-          </div>
-          <p class="ind__copy">Control and audit criminal justice data movement across endpoints to prevent leakage and
-            maintain CJIS policy compliance.</p>
+        <article class="browser-card">
+          <img src="images/brave.svg" alt="Brave" class="browser-logo">
+          <span class="browser-card__name">Brave</span>
         </article>
 
-        <article class="ind__card">
-          <h3 class="ind__title">Global Enterprises</h3>
-          <div class="ind__logo">
-            <strong class="ind__compliance">ISO 27001</strong>
-          </div>
-          <p class="ind__copy">Enforce data loss prevention policies across enterprise endpoints to support ISO 27001
-            information security audit requirements.</p>
+        <article class="browser-card">
+          <img src="images/Yandex_Browser_icon.svg" alt="Yandex" class="browser-logo">
+          <span class="browser-card__name">Yandex</span>
         </article>
-      </div>
 
-      <div class="ind__scrollbar" role="scrollbar" aria-controls="ind-grid" aria-orientation="horizontal">
-        <div class="ind__scrollbar-thumb"></div>
+        <article class="browser-card">
+          <img src="images/Vivaldi_web_browser_logo.svg" alt="Vivaldi" class="browser-logo">
+          <span class="browser-card__name">Vivaldi</span>
+        </article>
+
+        <article class="browser-card">
+          <img src="images/Cốc_Cốc_logo.svg" alt="Cốc Cốc" class="browser-logo">
+          <span class="browser-card__name">Cốc Cốc</span>
+        </article>
+
+        <article class="browser-card">
+          <img src="images/Naver_whale_logo.png" alt="Naver Whale" class="browser-logo">
+          <span class="browser-card__name">Naver Whale</span>
+        </article>
+
+        <article class="browser-card">
+          <img src="images/Internet_Explorer_10+11_logo.svg" alt="Internet Explorer" class="browser-logo">
+          <span class="browser-card__name">Internet Explorer</span>
+        </article>
+
       </div>
     </div>
   </section>
-
-  <!-- ─────────── PRICING ─────────── -->
+  <!-- WHY + DEMO -->
+  <section class="demo" id="demo">
+    <div class="container demo__grid">
+      <div class="demo__copy">
+        <h2 class="h1 h1--inverse">Why IT Teams Choose Browser Security Plus</h2>
+        <ul class="demo__features">
+          <li class="demo__feature">
+            <div class="demo__feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" width="22"
+                height="22">
+                <rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5" />
+                <path d="M8 12h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg></div>
+            <div>
+              <h3 class="demo__feature-title">Manage all browsers from one console</h3>
+              <p class="demo__feature-copy">
+Deploy and enforce browser policies across all browsers used in your environment.</p>
+            </div>
+          </li>
+          <li class="demo__feature">
+            <div class="demo__feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" width="22"
+                height="22">
+                <path d="M13 3l-8 11h6l-1 7 8-11h-6l1-7z" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg></div>
+            <div>
+              <h3 class="demo__feature-title">Lock down browsers to what matters</h3>
+              <p class="demo__feature-copy"> Restrict browsers to approved sites, disable risky features, and control exactly what users can access.</p>
+            </div>
+          </li>
+          <li class="demo__feature">
+            <div class="demo__feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" width="22"
+                height="22">
+                <path d="M13 3l-8 11h6l-1 7 8-11h-6l1-7z" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg></div>
+            <div>
+              <h3 class="demo__feature-title">Stop data loss through the browser</h3>
+              <p class="demo__feature-copy"> Prevent sensitive data from being uploaded, copied, or shared through unauthorized websites and web apps.</p>
+            </div>
+          </li>
+          <li class="demo__feature">
+            <div class="demo__feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" width="22"
+                height="22">
+                <path d="M12 3l8 4v5c0 5-4 8-8 9-4-1-8-4-8-9V7l8-4z" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+                <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></div>
+            <div>
+              <h3 class="demo__feature-title">Stay audit-ready with built-in compliance</h3>
+              <p class="demo__feature-copy">Automatically measure and report browser compliance against CIS and STIG standards across your organization.</p>
+            </div>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+      <form class="demo__form" novalidate
+        onsubmit="event.preventDefault(); this.querySelector('.demo__success').hidden=false;">
+        <div class="ff-grid">
+          <div class="ff" data-field><label class="ff__label">First name<span class="ff__req">*</span></label><input
+              class="ff__input" type="text" name="firstName" required /></div>
+          <div class="ff" data-field><label class="ff__label">Last name<span class="ff__req">*</span></label><input
+              class="ff__input" type="text" name="lastName" required /></div>
+          <div class="ff ff--full" data-field><label class="ff__label">Work email<span
+                class="ff__req">*</span></label><input class="ff__input" type="email" name="email" required /></div>
+          <div class="ff" data-field><label class="ff__label">Company<span class="ff__req">*</span></label><input
+              class="ff__input" type="text" name="company" required /></div>
+          <div class="ff ff--select" data-field><label class="ff__label">Computers<span
+                class="ff__req">*</span></label><select class="ff__input ff__input--select" name="computers" required>
+              <option value=""></option>
+              <option>1 - 25</option>
+              <option>26 - 100</option>
+              <option>101 - 500</option>
+              <option>500+</option>
+            </select><svg class="ff__chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#222"
+              stroke-width="1.75" aria-hidden="true">
+              <path d="m6 9 6 6 6-6" />
+            </svg></div>
+          <div class="ff ff--full ff--select" data-field><label class="ff__label">Primary browser<span
+                class="ff__req">*</span></label><select class="ff__input ff__input--select" name="browser" required>
+              <option value=""></option>
+              <option>Google Chrome</option>
+              <option>Microsoft Edge</option>
+              <option>Mozilla Firefox</option>
+              <option>Ulaa</option>
+              <option>Mixed browser estate</option>
+            </select><svg class="ff__chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#222"
+              stroke-width="1.75" aria-hidden="true">
+              <path d="m6 9 6 6 6-6" />
+            </svg></div>
+        </div><button type="submit" class="btn btn--primary btn--lg btn--full demo__submit">Request Demo</button>
+        <div class="demo__success" hidden>Thanks - we'll reach out within one business day.</div>
+      </form>
+    </div>
+  </section>
+  <!-- PRICING -->
   <section class="pricing" id="pricing">
     <div class="container">
       <header class="section__head section__head--center">
-        <h2 class="h1">Pick the Right Path to Data Protection</h2>
-        <p class="section__sub">Start with endpoint data visibility, then scale DLP enforcement across users, channels,
-          and compliance workflows.</p>
+        <h2 class="h1">Pick the Right Path to Control</h2>
+        <p class="section__sub">Start free to validate policies. Upgrade when you are ready to roll out controls at
+          scale.</p>
       </header>
-
       <div class="pricing__cards">
-        <!-- Plans card (Free + Pro split, shared features list, single CTA) -->
         <article class="pcard pcard--plans">
           <div class="pcard__plans">
-            <div class="pcard__plan">
-              <span class="pcard__tag">Free Edition</span>
-              <div class="pcard__price"><span class="pcard__num">$0</span><span class="pcard__unit">up to 25 endpoints</span></div>
+            <div class="pcard__plan"><span class="pcard__tag">Free Edition</span>
+              <div class="pcard__price"><span class="pcard__num">$0</span><span class="pcard__unit">up to 25 endpoints
+                  available</span></div>
             </div>
             <div class="pcard__divider" aria-hidden="true"></div>
-            <div class="pcard__plan">
-              <span class="pcard__tag pcard__tag--pro">Professional Edition</span>
-              <div class="pcard__price"><span class="pcard__num">$795</span><span class="pcard__unit">per 100 endpoints
-                  / year</span></div>
+            <div class="pcard__plan"><span class="pcard__tag pcard__tag--pro">Professional Edition</span>
+              <div class="pcard__price"><span class="pcard__num">$645</span><span class="pcard__unit">per 100 endpoints / year</span></div>
             </div>
           </div>
-
           <ul class="pcard__features">
-            <li>Discover sensitive data stored across endpoints</li>
-            <li>Classify and tag data using predefined or custom templates</li>
-            <li>Control USBs, printers, and peripheral data transfers</li>
-            <li>Prevent uploads to unauthorized web apps and cloud storage</li>
-            <li>Restrict outbound emails containing sensitive content</li>
+            <li>Browser hardening policies</li>
+            <li>Extension and add-on management</li>
+            <li>Web filtering and access controls</li>
+            <li>Policy-based enforcement across browsers</li>
+            <li>Visibility and reporting for governance</li>
           </ul>
-
-          <div class="pcard__cta-wrap">
-            <a href="#" class="btn btn--primary btn--lg pcard__cta">Free Trial</a>
-          </div>
+          <div class="pcard__cta-wrap"><a href="#" class="btn btn--primary btn--lg pcard__cta">Free Trial</a></div>
           <p class="pcard__note">
             The more you scale, the lesser you pay per endpoint.<br />
             <a href="#" class="pcard__link">Get a personalized quote</a>
           </p>
         </article>
-
-        <!-- Endpoint Central upsell (highlight tint) -->
         <aside class="pcard pcard--upsell">
           <div class="pcard__upsell-head">
-            <p class="pcard__upsell-eyebrow">Want unified endpoint protection?</p>
+            <p class="pcard__upsell-eyebrow">Want complete endpoint protection?</p>
             <h3 class="pcard__upsell-title">Explore Endpoint Central</h3>
           </div>
-
-          <p class="pcard__upsell-sub">+ Everything in Endpoint DLP Plus</p>
-
+          <p class="pcard__upsell-sub">+Everything in Browser Security Plus</p>
           <ul class="pcard__features pcard__features--upsell">
             <li>Vulnerability management</li>
             <li>Patch Management</li>
             <li>Enterprise data security</li>
-            <li>Peripheral device control</li>
+            <li>Data leakage prevention</li>
             <li>Endpoint detection and response</li>
-            <li>Enterprise browser security</li>
             <li>Application and privilege management</li>
+            <li>Peripheral device control</li>
           </ul>
-
-          <div class="pcard__cta-wrap">
-            <a href="#" class="btn btn--primary btn--lg pcard__cta">
-              Explore Now
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M5 12h14" />
-                <path d="m12 5 7 7-7 7" />
-              </svg>
-            </a>
-          </div>
+          <div class="pcard__cta-wrap"><a href="#capabilities" class="btn btn--primary btn--lg pcard__cta">Explore Now</a></div>
         </aside>
       </div>
     </div>
   </section>
-
-  <!-- ─────────── PROOF ─────────── -->
+<!-- ─────────── PROOF ─────────── -->
   <section class="proof">
     <div class="container">
       <header class="section__head section__head--center">
@@ -5998,10 +6382,10 @@
               <path d="m8 0 2.47 5 5.53.8-4 3.9.94 5.5L8 12.6 3.06 15.2 4 9.7 0 5.8l5.53-.8z" />
             </svg>
           </span>
-          <span class="rating__score">4 / 5</span>
+          <span class="rating__score">4.4 / 5</span>
         </div>
         <div class="rating">
-          <img class="rating__logo" src="assets/logos/gpi-logo.svg" alt="GPI" />
+          <img class="rating__logo" src="assets/logos/Capterra-logo.svg" alt="Capterra" />
           <span class="rating__stars" aria-hidden="true">
             <svg viewBox="0 0 16 16" fill="currentColor">
               <path d="m8 0 2.47 5 5.53.8-4 3.9.94 5.5L8 12.6 3.06 15.2 4 9.7 0 5.8l5.53-.8z" />
@@ -6019,96 +6403,79 @@
               <path d="m8 0 2.47 5 5.53.8-4 3.9.94 5.5L8 12.6 3.06 15.2 4 9.7 0 5.8l5.53-.8z" />
             </svg>
           </span>
-          <span class="rating__score">4.7 / 5</span>
+          <span class="rating__score">4.3 / 5</span>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- ─────────── FAQ (Design system v2) ─────────── -->
+  <!-- FAQ -->
   <section class="faq" id="faq">
     <div class="container">
       <header class="section__head section__head--center">
         <h2 class="h1">Frequently Asked Questions</h2>
       </header>
-
-      <div class="faq__list" id="faq__list">
+      <div class="faq__list" id="faq-list">
         <details class="faq-item" open>
-          <summary>
-            What sensitive data can Endpoint DLP Plus help protect?
-            <span class="faq__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
-                stroke-linejoin="round">
+          <summary>What is browser security software?<span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </summary>
-          <div class="faq-item__body">
-            Endpoint DLP Plus can help protect data such as personally identifiable information, payment card data,
-            health records, financial documents, source code, intellectual property, contracts, and other
-            business-critical files that require controlled access and movement.
-          </div>
+              </svg></span></summary>
+          <div class="faq-item__body">Browser security software helps IT teams manage browser configurations,
+            extensions, web access controls, updates, and browser activity across managed endpoints.</div>
         </details>
-
         <details class="faq-item">
-          <summary>
-            How does Endpoint DLP Plus monitor data movement?
-            <span class="faq__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+          <summary>Which browsers can Browser Security Plus manage?<span class="faq__icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
                 stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </summary>
-          <div class="faq-item__body">
-            It tracks sensitive file actions on managed endpoints, including copies, modifications, uploads, prints,
-            deletions, and transfers. Security teams can review users, endpoints, file names, destinations, timestamps,
-            and policy outcomes to investigate risky behavior.
-          </div>
+              </svg></span></summary>
+          <div class="faq-item__body">Browser Security Plus is positioned for mixed browser environments, including
+            Google Chrome, Microsoft Edge, Mozilla Firefox, Ulaa, Brave, Yandex, Vivaldi, Coc Coc, Naver Whale, and
+            Internet Explorer.</div>
         </details>
-
         <details class="faq-item">
-          <summary>
-            Can Endpoint DLP Plus support compliance audits?
-            <span class="faq__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+          <summary>How does Browser Security Plus control extensions?<span class="faq__icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
                 stroke-linejoin="round">
                 <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </summary>
-          <div class="faq-item__body">
-            Yes. Endpoint DLP Plus provides classification, policy enforcement, alerts, and audit-ready reports that
-            help organizations demonstrate how sensitive data is protected across endpoints.
-          </div>
+              </svg></span></summary>
+          <div class="faq-item__body">Admins can define trusted extensions, block risky add-ons, review extension
+            inventory, and apply policies by user, group, browser, or endpoint scope.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Can Browser Security Plus help with compliance?<span class="faq__icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></span></summary>
+          <div class="faq-item__body">Yes. Browser Security Plus provides policy enforcement, browser hardening,
+            extension visibility, and audit reports that help demonstrate browser governance controls.</div>
         </details>
       </div>
     </div>
   </section>
-
-  <!-- ─────────── FOOTER ─────────── -->
+  <!-- FOOTER -->
   <footer class="foot">
     <div class="container foot__grid">
-      <div>
-        <img class="foot__logo" src="images/Endpoint DLP Plus_with ME_Black.png" alt="Endpoint DLP Plus" />
-        <p class="foot__tag">Endpoint data loss prevention built for IT and security teams.</p>
+      <div><span class="brand-wordmark brand-wordmark--inverse">Browser Security Plus</span>
+        <p class="foot__tag">Browser management and security for enterprise IT teams.</p>
       </div>
       <div>
         <h4>Product</h4>
         <ul>
           <li><a href="#capabilities">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#browsers">Supported browsers</a></li>
+          <li><a href="#pricing">Get quote</a></li>
           <li><a href="#demo">Request demo</a></li>
-          <li><a href="#">Download</a></li>
         </ul>
       </div>
       <div>
-        <h4>Solutions</h4>
+        <h4>Features</h4>
         <ul>
-          <li><a href="#industries">Healthcare</a></li>
-          <li><a href="#industries">Financial</a></li>
-          <li><a href="#industries">Government</a></li>
-          <li><a href="#industries">Education</a></li>
+          <li><a href="#capabilities">Add-on management</a></li>
+          <li><a href="#capabilities">Web filter</a></li>
+          <li><a href="#capabilities">Browser isolation</a></li>
+          <li><a href="#capabilities">Activity tracking</a></li>
         </ul>
       </div>
       <div>
@@ -6121,14 +6488,12 @@
         </ul>
       </div>
     </div>
-    <div class="container foot__bar">
-      <span>© <span id="yr"></span> ManageEngine. A division of Zoho Corporation.</span>
-      <span class="foot__links"><a href="#">Privacy</a><a href="#">Terms</a><a
-          href="https://www.manageengine.com">manageengine.com</a></span>
-    </div>
+    <div class="container foot__bar"><span>&copy; <span id="yr"></span> ManageEngine. A division of Zoho
+        Corporation.</span><span class="foot__links"><a href="#">Privacy</a><a href="#">Terms</a><a
+          href="https://www.manageengine.com">manageengine.com</a></span></div>
   </footer>
   <script>
-    /* Endpoint DLP Plus — Landing page interactions */
+    /* Browser Security Plus - Landing page interactions */
     (function () {
       'use strict';
 
@@ -6136,7 +6501,7 @@
       var yr = document.getElementById('yr');
       if (yr) yr.textContent = new Date().getFullYear();
 
-      /* Header scroll state — collapses util bar */
+      /* Header scroll state â€” collapses util bar */
       var header = document.getElementById('siteHeader');
       var onScroll = function () {
         if (window.scrollY > 8) header.classList.add('is-scrolled');
@@ -6176,8 +6541,8 @@
         });
       });
 
-      /* FAQ — single-open accordion (design-system behavior) */
-      document.querySelectorAll('#faq__list .faq-item').forEach(function (item) {
+      /* FAQ â€” single-open accordion (design-system behavior) */
+      document.querySelectorAll('#faq-list .faq-item').forEach(function (item) {
         item.addEventListener('toggle', function () {
           if (item.open) {
             document.querySelectorAll('#faq-list .faq-item[open]').forEach(function (other) {
@@ -6240,7 +6605,7 @@
         requestAnimationFrame(frame);
       }
 
-      // Hero stat — count up on load (slight delay so the bars/rows animate first)
+      // Hero stat â€” count up on load (slight delay so the bars/rows animate first)
       var heroStat = document.querySelector('.console__stat-num');
       if (heroStat) {
         var heroFinal = heroStat.textContent.trim();
@@ -6286,7 +6651,7 @@
         });
       }
 
-      // Proof stats — count up when scrolled into view
+      // Proof stats â€” count up when scrolled into view
       var proofStats = document.querySelectorAll('.stat__num');
       if ('IntersectionObserver' in window && proofStats.length) {
         proofStats.forEach(function (el) {
