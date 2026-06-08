@@ -3393,8 +3393,11 @@
     .pcard__cta-wrap {
       display: flex;
       justify-content: center;
+      align-items: center;
+      gap: 12px;
       margin-top: auto;
       padding-top: 8px;
+      flex-wrap: wrap;
     }
 
     .pcard__cta {
@@ -5803,7 +5806,35 @@
       </div>
     </div>
   </section>
-   <!-- ─────────── INDUSTRIES ─────────── -->
+
+  <section class="dlp-image-section">
+  <img
+    src="images/manageengine-dlp-plus.png"
+    alt="ManageEngine DLP Plus"
+    class="dlp-image"
+  />
+</section>
+
+<style>
+  .dlp-image-section {
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dlp-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+  }
+</style>
+
+  <!-- ─────────── INDUSTRIES ─────────── -->
   <section class="ind" id="industries">
     <div class="container">
       <header class="section__head section__head--center">
@@ -5880,35 +5911,6 @@
     </div>
   </section>
 
- 
-
-  <section class="dlp-image-section">
-  <img
-    src="images/manageengine-dlp-plus.png"
-    alt="ManageEngine DLP Plus"
-    class="dlp-image"
-  />
-</section>
-
-<style>
-  .dlp-image-section {
-    width: 100%;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  .dlp-image {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    display: block;
-  }
-</style>
-
   <!-- ─────────── PRICING ─────────── -->
   <section class="pricing" id="pricing">
     <div class="container">
@@ -5944,6 +5946,7 @@
 
           <div class="pcard__cta-wrap">
             <a href="#" class="btn btn--primary btn--lg pcard__cta">Free Trial</a>
+            <a href="#" class="btn btn--secondary btn--lg pcard__cta">Download</a>
           </div>
           <p class="pcard__note">
             The more you scale, the lesser you pay per endpoint.<br />
